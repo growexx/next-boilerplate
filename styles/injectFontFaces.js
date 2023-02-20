@@ -1,3 +1,4 @@
+/* eslint-disable quotes */
 const getSrcURLs = (srcs) => {
   let src = ``
   srcs.map((value, i) => {

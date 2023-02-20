@@ -74,7 +74,6 @@ Identify problems that occur and try to resolve them by rolling back the respect
 
 ```js
 import TestPage from 'containers/TestPage/Loadable'
-
 ;<Route path="/test" component={TestPage} />
 ```
 
