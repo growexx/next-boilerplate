@@ -1,17 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Roboto } from '@next/font/google'
+import { Open_Sans } from '@next/font/google'
 
 import '../styles/globals.css'
 
-const roboto = Roboto({
+const openSans = Open_Sans({
   weight: '400',
   subsets: ['latin']
 })
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className={roboto.className}>
+    <main className={openSans.className}>
       <Component {...pageProps} />
     </main>
   )

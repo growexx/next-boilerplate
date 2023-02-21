@@ -14,7 +14,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react", "prettier", "testing-library"],
+  "plugins": ["import", "react", "prettier", "testing-library"],
   "rules": {
     "prettier/prettier": ["error"],
     "react/react-in-jsx-scope": "off",
@@ -28,7 +28,8 @@
         "named": "never",
         "asyncArrow": "always"
       }
-    ]
+    ],
+    "camelcase": "off"
   },
   "settings": {
     "react": {
@@ -37,7 +38,6 @@
     // "import/resolver": {
     //   "webpack": {
     //     "config": "./internals/webpack/webpack.prod.babel.js"
-    //     // "config": "./"
     //   },
     //   "node": {
     //     "extensions": [".js", ".jsx", ".ts", ".tsx"]

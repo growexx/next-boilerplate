@@ -1,14 +1,14 @@
 import React from 'react'
 import Head from 'next/head'
-// import dynamic from 'next/dynamic'
-// import ReactHtmlParser from 'react-html-parser'
+import dynamic from 'next/dynamic'
+import ReactHtmlParser from 'react-html-parser'
 
-// import features from '@docs/general/features.md'
-// import FeaturePage from 'pageComponents/FeaturePage'
+import features from '@docs/general/features.md'
 
-// const FeaturePage = dynamic(() => import('pageComponents/FeaturePage'), {
-//   ssr: false
-// })
+const FeaturePage = dynamic(() => import('pageComponents/FeaturePage'), {
+  ssr: false,
+  loading: () => <p>Loading...</p>
+})
 
 export default function Home() {
   return (
@@ -19,8 +19,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <FeaturePage>{ReactHtmlParser(`${features}`)}</FeaturePage> */}
-      <h1>Welcome to Next.js!</h1>
+      <FeaturePage>{ReactHtmlParser(`${features}`)}</FeaturePage>
     </>
   )
 }
