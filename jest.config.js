@@ -1,6 +1,8 @@
 module.exports = {
   collectCoverageFrom: ['**/*.{js,jsx,ts,tsx}', '!**/*.d.ts', '!**/node_modules/**'],
+  moduleFileExtensions: ['js', 'jsx', 'json', 'png', 'md', 'html'],
   moduleNameMapper: {
+    '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|md|html)$': '<rootDir>/fileTransformer.js',
     '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
     '^.+\\.(css|sass|scss)$': '<rootDir>/__mocks__/styleMock.js',
     '^.+\\.(jpg|jpeg|png|gif|webp|avif|svg)$': '<rootDir>/__mocks__/fileMock.js',
@@ -13,7 +15,8 @@ module.exports = {
     '^@locales/(.*)$': '<rootDir>/locales/$1',
     '^@utils/(.*)$': '<rootDir>/utils/$1',
     '^@pages/(.*)$': '<rootDir>/pages/$1',
-    '^@public/(.*)$': '<rootDir>/public/$1'
+    '^@public/(.*)$': '<rootDir>/public/$1',
+    '^@page-components/(.*)$': '<rootDir>/page-components/$1'
   },
   testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/.next/', '<rootDir>/internals/'],
   transform: {

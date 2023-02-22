@@ -11,7 +11,8 @@
       "@locales": ["locales/*"],
       "@utils": ["shared/utils.js"],
       "@pages/*": ["pages/*"],
-      "@public/*": ["public/*"]
+      "@public/*": ["public/*"],
+      "@page-components/*": ["page-components/*"]
     },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,

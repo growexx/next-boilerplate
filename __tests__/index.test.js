@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react'
-
 import Home from '@src/pages'
+import FeaturePage from 'page-components/FeaturePage'
 
 describe('Home', () => {
   it('renders a heading', () => {
@@ -11,5 +11,15 @@ describe('Home', () => {
     })
 
     expect(heading).toBeInTheDocument()
+  })
+})
+
+describe('<FeaturePage />', () => {
+  it('should render its heading', () => {
+    const {
+      container: { firstChild }
+    } = render(<FeaturePage />)
+
+    expect(firstChild).toMatchSnapshot()
   })
 })

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeaturePage /> should render its heading 1`] = `
+<div
+  class="sc-bcXHqe cFTayy"
+>
+  [object Object]
+</div>
+`;

@@ -5,7 +5,7 @@ import ReactHtmlParser from 'react-html-parser'
 
 import features from '@docs/general/features.md'
 
-const FeaturePage = dynamic(() => import('pageComponents/FeaturePage'), {
+const FeaturePage = dynamic(() => import('@page-components/FeaturePage'), {
   ssr: false,
   loading: () => <p>Loading...</p>
 })
@@ -19,6 +19,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <h1>Welcome to Next.js!</h1>
       <FeaturePage>{ReactHtmlParser(`${features}`)}</FeaturePage>
     </>
   )

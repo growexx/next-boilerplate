@@ -1,8 +1,3 @@
-/*
- * FeaturePage
- *
- * List all the features
- */
 import React from 'react'
 import ReactHtmlParser from 'react-html-parser'
 
