@@ -29,7 +29,8 @@
         "asyncArrow": "always"
       }
     ],
-    "camelcase": "off"
+    "camelcase": "off",
+    "multiline-ternary": "off"
   },
   "settings": {
     "react": {
