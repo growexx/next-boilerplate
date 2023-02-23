@@ -6,16 +6,20 @@ import styled from 'styled-components'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
+import dynamic from 'next/dynamic'
 
 import { ROUTES } from '@shared/constants'
 import GrowExxTriangleLogo from '@assets/images/Growexx-Triangle-White.png'
 import GrowExxLogo from '@assets/images/GrowExx_Group_Logo.png'
 import { ToggleBreadCrumb } from './StyledMainLayout'
 import { getUserData } from '@shared/utils/helper'
-import Footer from '@shared/components/footer'
-import Sidebar from '@shared/components/sidebar'
-import AppHeader from '@shared/components/header'
+
 import { GET_FILTERED_MENU_ITEM } from '@shared/components/sidebar/constants'
+
+// TODO: add loader support
+const Footer = dynamic(() => import('@shared/components/footer'), {})
+const Sidebar = dynamic(() => import('@shared/components/sidebar'), {})
+const AppHeader = dynamic(() => import('@shared/components/header'), {})
 
 const { Header, Content } = Layout
 
@@ -38,13 +42,19 @@ const HeaderMenuItem = styled(Menu.Item)`
   width: fit-content !important;
 `
 
+const LayoutWrapper = styled(Layout)`
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+`
+
 const Layouts = ({ layoutVariant, collapsed, toggle, children, user }) => {
   const router = useRouter()
 
   switch (layoutVariant) {
     case 2:
       return (
-        <Layout>
+        <LayoutWrapper>
           <Header>
             <LogoContainer className="logo">
               <Link href={ROUTES.HOME}>
@@ -67,11 +77,11 @@ const Layouts = ({ layoutVariant, collapsed, toggle, children, user }) => {
             </Content>
           </Layout>
           <Footer />
-        </Layout>
+        </LayoutWrapper>
       )
     case 3:
       return (
-        <Layout>
+        <LayoutWrapper>
           <Header>
             <LogoContainer className="logo">
               <Link href={ROUTES.HOME}>{<Image src={GrowExxLogo} alt="logo" />}</Link>
@@ -97,11 +107,11 @@ const Layouts = ({ layoutVariant, collapsed, toggle, children, user }) => {
             {children}
           </Content>
           <Footer />
-        </Layout>
+        </LayoutWrapper>
       )
     default:
       return (
-        <Layout>
+        <LayoutWrapper>
           <Sidebar collapsed={collapsed} user={getUserData()} layoutVariant={layoutVariant} />
           <Layout className="site-layout">
             <Header style={{ background: 'white', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
@@ -134,7 +144,7 @@ const Layouts = ({ layoutVariant, collapsed, toggle, children, user }) => {
               <Footer />
             </Layout>
           </Layout>
-        </Layout>
+        </LayoutWrapper>
       )
   }
 }

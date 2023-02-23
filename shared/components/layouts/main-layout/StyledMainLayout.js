@@ -46,7 +46,7 @@ export const StyledMainLayout = styled.div`
     justify-content: center;
     align-items: center;
     img {
-      margin: @margin-md;
+      margin: 25px;
     }
   }
   .site-layout .site-layout-background {
@@ -65,6 +65,9 @@ export const StyledMainLayout = styled.div`
       color: #fff;
       text-align: center;
       text-transform: uppercase;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     > .ant-layout {
       position: relative;

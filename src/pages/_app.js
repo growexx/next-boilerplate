@@ -1,10 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Open_Sans } from '@next/font/google'
+import dynamic from 'next/dynamic'
+import { Spin } from 'antd'
 
-import MainLayout from '@shared/components/layouts/main-layout'
 import GlobalStyle from 'styles/global-styles'
 import '../styles/globals.css'
+
+// TODO: add proper loader
+const MainLayout = dynamic(() => import('@shared/components/layouts/main-layout'), {
+  loading: () => <Spin spinning size="default" />,
+  ssr: false
+})
 
 const openSans = Open_Sans({
   weight: '400',

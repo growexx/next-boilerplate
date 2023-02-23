@@ -4,10 +4,11 @@ import dynamic from 'next/dynamic'
 import parse from 'html-react-parser'
 
 import features from '@docs/general/features.md'
+import { Skeleton } from 'antd'
 
-const FeaturePage = dynamic(() => import('@page-components/FeaturePage'), {
+const FeaturePage = dynamic(() => import('@page-components/feature-page'), {
   ssr: false,
-  loading: () => <p>Loading...</p>
+  loading: () => <Skeleton active paragraph={{ rows: 10 }} />
 })
 
 export default function Home() {

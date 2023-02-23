@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react'
 import Home from '@src/pages'
-import FeaturePage from 'page-components/FeaturePage'
+import FeaturePage from '@page-components/feature-page'
 
 describe('Home', () => {
   it('renders a heading', () => {
