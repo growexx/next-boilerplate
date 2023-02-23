@@ -30,6 +30,7 @@ const StorageService = {
     if (opts.hash) {
       storedValue = base.encode(storedValue)
     }
+    // eslint-disable-next-line no-useless-catch
     try {
       const d = new Date()
       d.setTime(d.getTime() + 30 * 24 * 60 * 60 * 1000)

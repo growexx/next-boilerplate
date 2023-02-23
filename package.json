@@ -8,9 +8,11 @@
     "start": "next start",
     "lint": "eslint . --ext .js",
     "format:fix": "prettier --write \"**/*.+(js|jsx|json|md)\"",
-    "test": "jest",
+    "prepare": "husky install",
     "test-ci": "jest --ci",
-    "prepare": "husky install"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watchAll"
   },
   "dependencies": {
     "@mdx-js/loader": "^2.3.0",

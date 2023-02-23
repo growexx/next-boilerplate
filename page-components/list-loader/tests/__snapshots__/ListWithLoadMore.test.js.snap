@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListWithLoadMore /> should render and match the snapshot 1`] = `
+<div
+  class="ant-list ant-list-split ant-list-something-after-last-item demo-load-more-list css-dev-only-do-not-override-1km3mtt"
+>
+  <div
+    class="ant-spin-nested-loading css-dev-only-do-not-override-1km3mtt"
+  >
+    <div
+      class="ant-spin-container"
+    >
+      <ul
+        class="ant-list-items"
+      >
+        <li
+          class="ant-list-item"
+        >
+          <div
+            class="ant-list-item-meta"
+          >
+            <div
+              class="ant-list-item-meta-avatar"
+            >
+              <span
+                class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1km3mtt"
+              >
+                <img
+                  src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+                />
+              </span>
+            </div>
+            <div
+              class="ant-list-item-meta-content"
+            >
+              <h4
+                class="ant-list-item-meta-title"
+              >
+                test
+              </h4>
+              <div
+                class="ant-list-item-meta-description"
+              >
+                test@example.com
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    style="text-align: center; margin-top: 12px; height: 32px; line-height: 32px;"
+  >
+    <button
+      aria-label="load-more"
+      class="ant-btn css-dev-only-do-not-override-1km3mtt ant-btn-default"
+      type="button"
+    >
+      <span>
+        load more
+      </span>
+    </button>
+  </div>
+</div>
+`;

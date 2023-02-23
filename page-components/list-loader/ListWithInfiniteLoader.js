@@ -14,8 +14,8 @@ const ListWithInfiniteLoader = () => {
 
   useEffect(() => {
     fetchData((res) => {
-      setData(res.results)
-      setList(res.results)
+      setData(res?.results)
+      setList(res?.results)
       setLoading(false)
     })
   }, [])

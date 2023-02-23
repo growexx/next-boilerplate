@@ -39,7 +39,7 @@ const ListWithLoadMore = () => {
         // Resetting window's offsetTop so as to display react-virtualized demo underfloor.
         // In real scene, you can using public method of react-virtualized:
         // https://stackoverflow.com/questions/46700726/how-to-use-public-method-updateposition-of-react-virtualized
-        window.dispatchEvent(new Event('resize'))
+        // window.dispatchEvent(new Event('resize'))
       })
     })
   }
@@ -54,7 +54,9 @@ const ListWithLoadMore = () => {
           lineHeight: '32px'
         }}
       >
-        <Button onClick={onLoadMore}>loading more</Button>
+        <Button aria-label="load-more" onClick={onLoadMore}>
+          load more
+        </Button>
       </div>
     ) : null
 
