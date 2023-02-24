@@ -1,8 +1,13 @@
-import ListLoader from '@page-components/list-loader'
-import Head from 'next/head'
 import React from 'react'
+import Head from 'next/head'
+import dynamic from 'next/dynamic'
+import { Skeleton } from 'antd'
 
-const Loader = () => {
+const ListLoader = dynamic(() => import('@page-components/list-loader'), {
+  loading: () => <Skeleton active paragraph={{ rows: 10 }} />
+})
+
+const LoaderPage = () => {
   return (
     <>
       <Head>
@@ -14,4 +19,4 @@ const Loader = () => {
   )
 }
 
-export default Loader
+export default LoaderPage
