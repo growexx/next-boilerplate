@@ -1,0 +1,1650 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NumeralConversion renders Numbers table 1`] = `
+<div>
+  <div>
+    <p
+      class="sc-bcXHqe bdpxKJ"
+    >
+      This demo uses numeral library for conversion of number
+    </p>
+    <div
+      class="sc-gswNZR iHyrYY"
+    >
+      <span
+        class="ant-input-group-wrapper ant-input-search ant-input-search-with-button css-dev-only-do-not-override-1km3mtt"
+      >
+        <span
+          class="ant-input-wrapper ant-input-group css-dev-only-do-not-override-1km3mtt"
+        >
+          <input
+            class="ant-input css-dev-only-do-not-override-1km3mtt"
+            placeholder="Enter number to convert"
+            type="text"
+            value="0"
+          />
+          <span
+            class="ant-input-group-addon"
+          >
+            <button
+              class="ant-btn css-dev-only-do-not-override-1km3mtt ant-btn-primary ant-input-search-button"
+              type="button"
+            >
+              <span>
+                GO
+              </span>
+            </button>
+          </span>
+        </span>
+      </span>
+    </div>
+    <div
+      class="sc-dkrFOg ehVwmC"
+    >
+      <p>
+        Create
+      </p>
+      <p>
+        Create an instance of a numeral. Numeral takes numbers or strings that it trys to convert into a number
+      </p>
+      <div
+        class="ant-table-wrapper css-dev-only-do-not-override-1km3mtt"
+      >
+        <div
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1km3mtt"
+        >
+          <div
+            class="ant-spin-container"
+          >
+            <div
+              class="ant-table ant-table-scroll-horizontal"
+            >
+              <div
+                class="ant-table-container"
+              >
+                <div
+                  class="ant-table-content"
+                  style="overflow-x: auto; overflow-y: hidden;"
+                >
+                  <table
+                    style="width: 350px; min-width: 100%; table-layout: auto;"
+                  >
+                    <colgroup>
+                      <col
+                        style="width: 200px;"
+                      />
+                      <col
+                        style="width: 150px;"
+                      />
+                    </colgroup>
+                    <thead
+                      class="ant-table-thead"
+                    >
+                      <tr>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Input
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Value
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody
+                      class="ant-table-tbody"
+                    >
+                      <tr
+                        aria-hidden="true"
+                        class="ant-table-measure-row"
+                        style="height: 0px; font-size: 0px;"
+                      >
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="1"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-hLBbgP kRYeGG"
+    >
+      <p>
+        Format
+      </p>
+      <p>
+        Numbers can be formatted to look like currency, percentages, times, or even plain old numbers with decimal places, thousands, and abbreviations.
+      </p>
+    </div>
+    <div
+      class="sc-dkrFOg ehVwmC"
+    >
+      <p>
+        Numbers
+      </p>
+      <div
+        class="ant-table-wrapper css-dev-only-do-not-override-1km3mtt"
+      >
+        <div
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1km3mtt"
+        >
+          <div
+            class="ant-spin-container"
+          >
+            <div
+              class="ant-table ant-table-scroll-horizontal"
+            >
+              <div
+                class="ant-table-container"
+              >
+                <div
+                  class="ant-table-content"
+                  style="overflow-x: auto; overflow-y: hidden;"
+                >
+                  <table
+                    aria-label="Numbers"
+                    style="width: 350px; min-width: 100%; table-layout: auto;"
+                  >
+                    <colgroup>
+                      <col
+                        style="width: 100px;"
+                      />
+                      <col
+                        style="width: 100px;"
+                      />
+                      <col
+                        style="width: 100px;"
+                      />
+                    </colgroup>
+                    <thead
+                      class="ant-table-thead"
+                    >
+                      <tr>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Number
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Format
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          String
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody
+                      class="ant-table-tbody"
+                    >
+                      <tr
+                        aria-hidden="true"
+                        class="ant-table-measure-row"
+                        style="height: 0px; font-size: 0px;"
+                      >
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="0"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0,0.0000
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.0000
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="1"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0,0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="2"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          +0,0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          +0
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="3"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0,0.0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.0
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="4"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.000
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.000
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="5"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          00000
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          00000
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="6"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          000000,0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          000,000
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="7"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0o
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0th
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="8"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0o
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0th
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="9"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0a
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="10"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0 a
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0 
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="11"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.0a
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.0
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="12"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.0[0000]
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.0
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="13"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.00000
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.00000
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="14"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          (.00)
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          .00
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="15"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          .00
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          .00
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="16"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          (0,0.0000)
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.0000
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="17"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0[.]00000
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="18"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          000.00
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          000.00
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-dkrFOg ehVwmC"
+    >
+      <p>
+        Currency
+      </p>
+      <div
+        class="ant-table-wrapper css-dev-only-do-not-override-1km3mtt"
+      >
+        <div
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1km3mtt"
+        >
+          <div
+            class="ant-spin-container"
+          >
+            <div
+              class="ant-table ant-table-scroll-horizontal"
+            >
+              <div
+                class="ant-table-container"
+              >
+                <div
+                  class="ant-table-content"
+                  style="overflow-x: auto; overflow-y: hidden;"
+                >
+                  <table
+                    style="width: 350px; min-width: 100%; table-layout: auto;"
+                  >
+                    <colgroup>
+                      <col
+                        style="width: 100px;"
+                      />
+                      <col
+                        style="width: 100px;"
+                      />
+                      <col
+                        style="width: 100px;"
+                      />
+                    </colgroup>
+                    <thead
+                      class="ant-table-thead"
+                    >
+                      <tr>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Number
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Format
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          String
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody
+                      class="ant-table-tbody"
+                    >
+                      <tr
+                        aria-hidden="true"
+                        class="ant-table-measure-row"
+                        style="height: 0px; font-size: 0px;"
+                      >
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="0"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          $0,0.00
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          $0.00
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="1"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0,0[.]00 $
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0 $
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="2"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          $ 0,0[.]00
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          $ 0
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="3"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          ($0,0)
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          $0
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="4"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          $0.00
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          $0.00
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="5"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          ($ 0.00 a)
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          $ 0.00 
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-dkrFOg ehVwmC"
+    >
+      <p>
+        Bytes
+      </p>
+      <div
+        class="ant-table-wrapper css-dev-only-do-not-override-1km3mtt"
+      >
+        <div
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1km3mtt"
+        >
+          <div
+            class="ant-spin-container"
+          >
+            <div
+              class="ant-table ant-table-scroll-horizontal"
+            >
+              <div
+                class="ant-table-container"
+              >
+                <div
+                  class="ant-table-content"
+                  style="overflow-x: auto; overflow-y: hidden;"
+                >
+                  <table
+                    style="width: 350px; min-width: 100%; table-layout: auto;"
+                  >
+                    <colgroup>
+                      <col
+                        style="width: 100px;"
+                      />
+                      <col
+                        style="width: 100px;"
+                      />
+                      <col
+                        style="width: 100px;"
+                      />
+                    </colgroup>
+                    <thead
+                      class="ant-table-thead"
+                    >
+                      <tr>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Number
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Format
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          String
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody
+                      class="ant-table-tbody"
+                    >
+                      <tr
+                        aria-hidden="true"
+                        class="ant-table-measure-row"
+                        style="height: 0px; font-size: 0px;"
+                      >
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="0"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0b
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0B
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="1"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0b
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0B
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="2"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0 ib
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0 B
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="3"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.0 b
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.0 B
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="4"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.00b
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.00B
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="5"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.00b
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.00B
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="6"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.000 ib
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.000 B
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-dkrFOg ehVwmC"
+    >
+      <p>
+        Percentages
+      </p>
+      <div
+        class="ant-table-wrapper css-dev-only-do-not-override-1km3mtt"
+      >
+        <div
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1km3mtt"
+        >
+          <div
+            class="ant-spin-container"
+          >
+            <div
+              class="ant-table ant-table-scroll-horizontal"
+            >
+              <div
+                class="ant-table-container"
+              >
+                <div
+                  class="ant-table-content"
+                  style="overflow-x: auto; overflow-y: hidden;"
+                >
+                  <table
+                    style="width: 350px; min-width: 100%; table-layout: auto;"
+                  >
+                    <colgroup>
+                      <col
+                        style="width: 100px;"
+                      />
+                      <col
+                        style="width: 100px;"
+                      />
+                      <col
+                        style="width: 100px;"
+                      />
+                    </colgroup>
+                    <thead
+                      class="ant-table-thead"
+                    >
+                      <tr>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Number
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Format
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          String
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody
+                      class="ant-table-tbody"
+                    >
+                      <tr
+                        aria-hidden="true"
+                        class="ant-table-measure-row"
+                        style="height: 0px; font-size: 0px;"
+                      >
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="0"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0%
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0%
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="1"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.000%
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.000%
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="2"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0 %
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0 %
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="3"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          (0.000 %)
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.000 %
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-dkrFOg ehVwmC"
+    >
+      <p>
+        Time
+      </p>
+      <div
+        class="ant-table-wrapper css-dev-only-do-not-override-1km3mtt"
+      >
+        <div
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1km3mtt"
+        >
+          <div
+            class="ant-spin-container"
+          >
+            <div
+              class="ant-table ant-table-scroll-horizontal"
+            >
+              <div
+                class="ant-table-container"
+              >
+                <div
+                  class="ant-table-content"
+                  style="overflow-x: auto; overflow-y: hidden;"
+                >
+                  <table
+                    style="width: 350px; min-width: 100%; table-layout: auto;"
+                  >
+                    <colgroup>
+                      <col
+                        style="width: 100px;"
+                      />
+                      <col
+                        style="width: 100px;"
+                      />
+                      <col
+                        style="width: 100px;"
+                      />
+                    </colgroup>
+                    <thead
+                      class="ant-table-thead"
+                    >
+                      <tr>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Number
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Format
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          String
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody
+                      class="ant-table-tbody"
+                    >
+                      <tr
+                        aria-hidden="true"
+                        class="ant-table-measure-row"
+                        style="height: 0px; font-size: 0px;"
+                      >
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="0"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          00:00:00
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0:00:00
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="1"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          00:00:00
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0:00:00
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="2"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          00:00:00
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0:00:00
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-dkrFOg ehVwmC"
+    >
+      <p>
+        Exponential
+      </p>
+      <div
+        class="ant-table-wrapper css-dev-only-do-not-override-1km3mtt"
+      >
+        <div
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1km3mtt"
+        >
+          <div
+            class="ant-spin-container"
+          >
+            <div
+              class="ant-table ant-table-scroll-horizontal"
+            >
+              <div
+                class="ant-table-container"
+              >
+                <div
+                  class="ant-table-content"
+                  style="overflow-x: auto; overflow-y: hidden;"
+                >
+                  <table
+                    style="width: 350px; min-width: 100%; table-layout: auto;"
+                  >
+                    <colgroup>
+                      <col
+                        style="width: 100px;"
+                      />
+                      <col
+                        style="width: 100px;"
+                      />
+                      <col
+                        style="width: 100px;"
+                      />
+                    </colgroup>
+                    <thead
+                      class="ant-table-thead"
+                    >
+                      <tr>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Number
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Format
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          String
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody
+                      class="ant-table-tbody"
+                    >
+                      <tr
+                        aria-hidden="true"
+                        class="ant-table-measure-row"
+                        style="height: 0px; font-size: 0px;"
+                      >
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="0"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0,0e+0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0e+0
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="1"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.00e+0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.00e+0
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="2"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.000e+0
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          0.000e+0
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
