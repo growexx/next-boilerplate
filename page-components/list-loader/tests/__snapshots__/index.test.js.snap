@@ -2,10 +2,10 @@
 
 exports[`<ListLoader /> should render and match the snapshot 1`] = `
 <div
-  class="sc-gswNZR klvvou"
+  class="sc-guDLRT doUcLN"
 >
   <div
-    class="ant-tabs ant-tabs-top css-dev-only-do-not-override-1km3mtt"
+    class="ant-tabs ant-tabs-top css-dev-only-do-not-override-10ed4xt"
     data-testid="ListTab"
   >
     <div
@@ -120,17 +120,17 @@ exports[`<ListLoader /> should render and match the snapshot 1`] = `
           tabindex="0"
         >
           <div
-            class="sc-bcXHqe eoiStu"
+            class="sc-beySbM eAvRgr"
           >
             <div
               class="demo-infinite-container"
             >
               <div>
                 <div
-                  class="ant-list ant-list-split css-dev-only-do-not-override-1km3mtt"
+                  class="ant-list ant-list-split css-dev-only-do-not-override-10ed4xt"
                 >
                   <div
-                    class="ant-spin-nested-loading css-dev-only-do-not-override-1km3mtt"
+                    class="ant-spin-nested-loading css-dev-only-do-not-override-10ed4xt"
                   >
                     <div
                       class="ant-spin-container"
@@ -139,7 +139,7 @@ exports[`<ListLoader /> should render and match the snapshot 1`] = `
                         class="ant-list-empty-text"
                       >
                         <div
-                          class="css-dev-only-do-not-override-1km3mtt ant-empty ant-empty-normal"
+                          class="css-dev-only-do-not-override-10ed4xt ant-empty ant-empty-normal"
                         >
                           <div
                             class="ant-empty-image"

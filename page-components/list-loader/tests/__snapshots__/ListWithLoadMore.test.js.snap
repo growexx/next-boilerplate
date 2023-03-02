@@ -2,10 +2,10 @@
 
 exports[`<ListWithLoadMore /> should render and match the snapshot 1`] = `
 <div
-  class="ant-list ant-list-split ant-list-something-after-last-item demo-load-more-list css-dev-only-do-not-override-1km3mtt"
+  class="ant-list ant-list-split ant-list-something-after-last-item demo-load-more-list css-dev-only-do-not-override-10ed4xt"
 >
   <div
-    class="ant-spin-nested-loading css-dev-only-do-not-override-1km3mtt"
+    class="ant-spin-nested-loading css-dev-only-do-not-override-10ed4xt"
   >
     <div
       class="ant-spin-container"
@@ -23,7 +23,7 @@ exports[`<ListWithLoadMore /> should render and match the snapshot 1`] = `
               class="ant-list-item-meta-avatar"
             >
               <span
-                class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1km3mtt"
+                class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-10ed4xt"
               >
                 <img
                   src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
@@ -54,7 +54,7 @@ exports[`<ListWithLoadMore /> should render and match the snapshot 1`] = `
   >
     <button
       aria-label="load-more"
-      class="ant-btn css-dev-only-do-not-override-1km3mtt ant-btn-default"
+      class="ant-btn css-dev-only-do-not-override-10ed4xt ant-btn-default"
       type="button"
     >
       <span>

@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    domains: ['thispersondoesnotexist.com']
+  },
   webpack: (config) => {
     config.module.rules.push({
       test: /\.md$/,
