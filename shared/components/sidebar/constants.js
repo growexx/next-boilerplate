@@ -10,7 +10,8 @@ import {
   PieChartOutlined,
   MessageOutlined,
   ShoppingOutlined,
-  SearchOutlined
+  SearchOutlined,
+  CloudServerOutlined
 } from '@ant-design/icons'
 
 import { ROUTES } from '@shared/constants'
@@ -71,6 +72,11 @@ export const MenuItems = [
     to: ROUTES.PRODUCTS,
     tabName: 'Products',
     icon: <ShoppingOutlined />
+  },
+  {
+    to: ROUTES.SSR_DEMO,
+    tabName: 'SSR Demo',
+    icon: <CloudServerOutlined />
   }
 ]
 

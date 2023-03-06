@@ -14,7 +14,7 @@ module.exports = {
     '^@assets/(.*)$': '<rootDir>/assets/$1',
     '^@locales/(.*)$': '<rootDir>/locales/$1',
     '^@utils/(.*)$': '<rootDir>/utils/$1',
-    '^@pages/(.*)$': '<rootDir>/pages/$1',
+    '^@pages/(.*)$': '<rootDir>/src/pages/$1',
     '^@public/(.*)$': '<rootDir>/public/$1',
     '^@page-components/(.*)$': '<rootDir>/page-components/$1'
   },

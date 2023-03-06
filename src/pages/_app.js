@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Open_Sans } from '@next/font/google'
 import dynamic from 'next/dynamic'
 import { ConfigProvider, Spin } from 'antd'
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { Hydrate, QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 
 import GlobalStyle from 'styles/global-styles'
@@ -45,10 +45,12 @@ export default function App({ Component, pageProps }) {
         }}
       >
         <QueryClientProvider client={queryClient}>
-          <MainLayout>
-            <Component {...pageProps} />
-          </MainLayout>
-          <ReactQueryDevtools initialIsOpen={false} />
+          <Hydrate state={pageProps.dehydratedState}>
+            <MainLayout>
+              <Component {...pageProps} />
+            </MainLayout>
+            <ReactQueryDevtools initialIsOpen={false} />
+          </Hydrate>
         </QueryClientProvider>
       </ConfigProvider>
       <GlobalStyle />

@@ -32,7 +32,8 @@ export const ROUTES = {
   TWO_FACTOR_AUTHENTICATION: '/two-factor-authentication',
   FORGOT_PASSWORD: '/forgot-password',
   MULTI_TAB_SUPPORT: '/multi-tab-support',
-  PRODUCTS: '/products'
+  PRODUCTS: '/products',
+  SSR_DEMO: '/ssr-demo'
 }
 
 // API-ROUTES

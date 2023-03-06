@@ -10,7 +10,7 @@
       "@assets/*": ["assets/*"],
       "@locales": ["locales/*"],
       "@utils": ["shared/utils.js"],
-      "@pages/*": ["pages/*"],
+      "@pages/*": ["src/pages/*"],
       "@public/*": ["public/*"],
       "@page-components/*": ["page-components/*"],
       "@styles/*": ["styles/*"]
