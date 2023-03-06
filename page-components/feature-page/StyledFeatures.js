@@ -29,10 +29,10 @@ export const StyledFeaturePage = styled.div`
       display: none;
     }
     tr:not(:first-child) {
-      border-bottom: 2px solid @grey;
+      border-bottom: 2px solid #808080;
     }
     td:first-child {
-      border-right: 2px solid @grey;
+      border-right: 2px solid #808080;
     }
     td {
       padding: 12px 13px;

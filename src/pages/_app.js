@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import { Open_Sans } from '@next/font/google'
 import dynamic from 'next/dynamic'
-import { Spin } from 'antd'
+import { ConfigProvider, Spin } from 'antd'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 
@@ -33,12 +33,24 @@ export default function App({ Component, pageProps }) {
 
   return (
     <main className={openSans.className}>
-      <QueryClientProvider client={queryClient}>
-        <MainLayout>
-          <Component {...pageProps} />
-        </MainLayout>
-        <ReactQueryDevtools initialIsOpen={false} />
-      </QueryClientProvider>
+      <ConfigProvider
+        theme={{
+          token: {
+            colorPrimary: '#4d186e',
+            colorPrimaryHover: '#3E1358',
+            blue: '#4d186e',
+            colorError: '#ff0000',
+            lineHeight: '1.5715'
+          }
+        }}
+      >
+        <QueryClientProvider client={queryClient}>
+          <MainLayout>
+            <Component {...pageProps} />
+          </MainLayout>
+          <ReactQueryDevtools initialIsOpen={false} />
+        </QueryClientProvider>
+      </ConfigProvider>
       <GlobalStyle />
     </main>
   )
