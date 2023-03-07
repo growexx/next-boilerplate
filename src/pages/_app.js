@@ -8,6 +8,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 
 import GlobalStyle from 'styles/global-styles'
 import '../styles/globals.css'
+import useApp from '@shared/hooks/use-app'
 
 // TODO: add proper loader
 const MainLayout = dynamic(() => import('@shared/components/layouts/main-layout'), {
@@ -29,6 +30,7 @@ const queryClientWithDefaultOptions = new QueryClient({
 })
 
 export default function App({ Component, pageProps }) {
+  useApp()
   const [queryClient] = useState(() => queryClientWithDefaultOptions)
 
   return (

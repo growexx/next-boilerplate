@@ -11,6 +11,21 @@ const GlobalStyle = createGlobalStyle`
     min-height: 100%;
     min-width: 100%;
   }
+  #nprogress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 201;
+    width: 100%;
+    height: 4px;
+    padding: 0px;
+    background-color: white;
+  }
+  #nprogress .bar {
+    background-color: #4d186e;
+    height: 100%;
+  }
+
   /**
   * display utility class
   */
