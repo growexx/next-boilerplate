@@ -9,6 +9,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import GlobalStyle from 'styles/global-styles'
 import '../styles/globals.css'
 import useApp from '@shared/hooks/use-app'
+import { SessionProvider } from 'next-auth/react'
 
 // TODO: add proper loader
 const MainLayout = dynamic(() => import('@shared/components/layouts/main-layout'), {
@@ -33,6 +34,18 @@ export default function App({ Component, pageProps }) {
   useApp()
   const [queryClient] = useState(() => queryClientWithDefaultOptions)
 
+  const GetPageWithLayout = () => {
+    if (Component.getLayout) {
+      return Component.getLayout(<Component {...pageProps} />)
+    } else {
+      return (
+        <MainLayout>
+          <Component {...pageProps} />
+        </MainLayout>
+      )
+    }
+  }
+
   return (
     <main className={openSans.className}>
       <ConfigProvider
@@ -48,9 +61,9 @@ export default function App({ Component, pageProps }) {
       >
         <QueryClientProvider client={queryClient}>
           <Hydrate state={pageProps.dehydratedState}>
-            <MainLayout>
-              <Component {...pageProps} />
-            </MainLayout>
+            <SessionProvider session={pageProps.session}>
+              <GetPageWithLayout />
+            </SessionProvider>
             <ReactQueryDevtools initialIsOpen={false} />
           </Hydrate>
         </QueryClientProvider>

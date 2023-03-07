@@ -16,7 +16,7 @@ export const ROUTES = {
   HOME: '/',
   GITHUB_SEARCH: '/github-search',
   FONT_AWESOME: '/font-awesome',
-  LOGIN: '/login',
+  LOGIN: '/sign-in',
   REGISTER: '/register',
   PROFILE: '/profile',
   LOGOUT: '/logout',

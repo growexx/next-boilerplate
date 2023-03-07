@@ -1,5 +1,5 @@
 import React from 'react'
-import { UserOutlined, LockOutlined } from '@ant-design/icons'
+import { UserOutlined } from '@ant-design/icons'
 
 import { ROUTES } from '@shared/constants'
 
@@ -13,10 +13,5 @@ export const MenuItems = [
     to: ROUTES.CHANGE_PASSWORD,
     tabName: 'Change Password',
     icon: <UserOutlined />
-  },
-  {
-    to: ROUTES.LOGOUT,
-    tabName: 'Logout',
-    icon: <LockOutlined />
   }
 ]

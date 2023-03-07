@@ -6,7 +6,7 @@ import dynamic from 'next/dynamic'
 // import WithAuth from '@shared/components/withAuth'
 // import { allRoutes } from '@shared/constants/allRoutes'
 
-const SignIn = dynamic(() => import('@shared/components/auth/signIn'), {
+const SignIn = dynamic(() => import('@page-components/sign-in'), {
   loading: () => 'loading...',
   ssr: false
 })
@@ -17,6 +17,10 @@ function SignInPage() {
       <SignIn />
     </section>
   )
+}
+
+SignInPage.getLayout = (page) => {
+  return page
 }
 
 export default SignInPage
