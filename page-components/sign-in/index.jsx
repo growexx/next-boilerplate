@@ -1,12 +1,19 @@
 import { Form } from 'antd'
-import React, { useCallback } from 'react'
+import React, { useCallback, useEffect } from 'react'
 import { useForm } from 'react-hook-form'
-import { signIn } from 'next-auth/react'
+import { signIn, useSession } from 'next-auth/react'
+import { useRouter } from 'next/router'
 
 import { Input } from '@shared/utils/Fields'
 
 const SignIn = () => {
   const { control, handleSubmit, formState } = useForm()
+  const { data: session } = useSession()
+  const router = useRouter()
+
+  useEffect(() => {
+    if (session) router.replace('/')
+  }, [session])
 
   const onSubmit = async (data) => {
     await signIn('credentials', {
