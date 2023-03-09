@@ -1,7 +1,6 @@
-import React, { useCallback, useEffect } from 'react'
+import React, { useCallback } from 'react'
 import { useForm } from 'react-hook-form'
-import { signIn, useSession } from 'next-auth/react'
-import { useRouter } from 'next/router'
+import { signIn } from 'next-auth/react'
 import { GoMarkGithub } from 'react-icons/go'
 import { BsGoogle } from 'react-icons/bs'
 import { Button, Form, List } from 'antd'
@@ -11,12 +10,6 @@ import { StyledSignIn } from './StyledSignIn'
 
 const SignIn = () => {
   const { control, handleSubmit, formState } = useForm()
-  const router = useRouter()
-  const { data: session, loading } = useSession()
-
-  useEffect(() => {
-    if (session) router.replace('/')
-  }, [session])
 
   const onSubmit = async (data) => {
     await signIn('credentials', {
