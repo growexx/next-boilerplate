@@ -44,69 +44,66 @@ const SignIn = () => {
   )
 
   return (
-    !session &&
-    !loading && (
-      <StyledSignIn>
-        <form onSubmit={handleSubmit(onSubmit)}>
-          <Form.Item {...formItemLayout} label="Email *" {...formItemWithErrorProps('email')}>
-            <Input
-              control={control}
-              name="email"
-              placeholder="john@example.com"
-              rules={{
-                required: {
-                  value: true,
-                  message: 'Email is required'
-                },
-                pattern: {
-                  value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                  message: 'invalid email address'
-                }
-              }}
-            />
-          </Form.Item>
+    <StyledSignIn>
+      <form onSubmit={handleSubmit(onSubmit)}>
+        <Form.Item {...formItemLayout} label="Email *" {...formItemWithErrorProps('email')}>
+          <Input
+            control={control}
+            name="email"
+            placeholder="john@example.com"
+            rules={{
+              required: {
+                value: true,
+                message: 'Email is required'
+              },
+              pattern: {
+                value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                message: 'invalid email address'
+              }
+            }}
+          />
+        </Form.Item>
 
-          <Form.Item {...formItemLayout} label="Password  *" {...formItemWithErrorProps('password')}>
-            <InputPassword
-              control={control}
-              name="password"
-              type="password"
-              rules={{
-                required: {
-                  value: true,
-                  message: 'Password is required'
-                }
-              }}
-            />
-          </Form.Item>
+        <Form.Item {...formItemLayout} label="Password  *" {...formItemWithErrorProps('password')}>
+          <InputPassword
+            control={control}
+            name="password"
+            type="password"
+            rules={{
+              required: {
+                value: true,
+                message: 'Password is required'
+              }
+            }}
+          />
+        </Form.Item>
 
-          <Form.Item>
-            <Button htmlType="submit">Submit</Button>
-          </Form.Item>
-        </form>
+        <Form.Item>
+          <Button htmlType="submit">Submit</Button>
+        </Form.Item>
+      </form>
 
-        <List>
-          <List.Item
-            onClick={() =>
-              signIn('github', {
-                callbackUrl: '/'
-              })
-            }
-          >
-            <GoMarkGithub />
-          </List.Item>
-          <List.Item
-            onClick={() =>
-              signIn('google', {
-                callbackUrl: '/'
-              })
-            }
-          >
-            <BsGoogle />
-          </List.Item>
-        </List>
-      </StyledSignIn>
-    )
+      <List>
+        <List.Item
+          onClick={() =>
+            signIn('github', {
+              callbackUrl: '/'
+            })
+          }
+        >
+          <GoMarkGithub />
+        </List.Item>
+        <List.Item
+          onClick={() =>
+            signIn('google', {
+              callbackUrl: '/'
+            })
+          }
+        >
+          <BsGoogle />
+        </List.Item>
+      </List>
+    </StyledSignIn>
   )
 }
 
