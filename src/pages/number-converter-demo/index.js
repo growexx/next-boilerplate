@@ -4,7 +4,6 @@ import dynamic from 'next/dynamic'
 import { Skeleton } from 'antd'
 
 const NumeralConversion = dynamic(() => import('@page-components/numeral-conversion'), {
-  ssr: false,
   loading: () => <Skeleton active />
 })
 

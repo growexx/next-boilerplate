@@ -2,12 +2,11 @@ import React from 'react'
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import parse from 'html-react-parser'
-
-import features from '@docs/general/features.md'
 import { Skeleton } from 'antd'
 
+import features from '@docs/general/features.md'
+
 const FeaturePage = dynamic(() => import('@page-components/feature-page'), {
-  ssr: false,
   loading: () => <Skeleton active paragraph={{ rows: 10 }} />
 })
 

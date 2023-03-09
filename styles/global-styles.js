@@ -7,6 +7,9 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
   }
+  li {
+    list-style: none;
+  }
   #__next {
     min-height: 100%;
     min-width: 100%;
