@@ -16,7 +16,9 @@ const PostDetailsPage = (props) => {
       <Head>
         <title>SSR Demo</title>
       </Head>
-      <PostDetails />
+      <section>
+        <PostDetails />
+      </section>
     </>
   )
 }

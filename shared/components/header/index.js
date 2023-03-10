@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { LogoutOutlined } from '@ant-design/icons'
+import { signOut } from 'next-auth/react'
+import { Tooltip } from 'antd'
 
-// import Notification from 'components/Notification'
-// import Cart from 'components/Cart'
-import { AvatarWrapper, StyledAppHeader, StyledAppHeaderColored } from './StyledAppHeader'
 import Avatar from '../avatar'
+import { AvatarWrapper, StyledAppHeader, StyledAppHeaderColored } from './StyledAppHeader'
 import { MenuItems } from './constants'
 
 const Header = (props) =>
@@ -25,6 +26,9 @@ const Header = (props) =>
         {/* <Notification /> */}
         <Avatar menu={MenuItems} />
       </AvatarWrapper>
+      <Tooltip title="Log Out">
+        <LogoutOutlined onClick={() => signOut()} />
+      </Tooltip>
     </StyledAppHeader>
   )
 

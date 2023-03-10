@@ -11,6 +11,14 @@ export const Input = ({ control, name, rules = {}, ...rest }) => {
   return <AntdInput {...rest} name={fieldName} onChange={onChange} value={value} ref={ref} onBlur={onBlur} />
 }
 
+export const InputPassword = ({ control, name, rules = {}, ...rest }) => {
+  const {
+    field: { onChange, onBlur, value, name: fieldName, ref }
+  } = useController({ control, name, rules })
+
+  return <AntdInput.Password {...rest} name={fieldName} onChange={onChange} value={value} ref={ref} onBlur={onBlur} />
+}
+
 export const Select = ({ control, name, rules = {}, ...rest }) => {
   const {
     field: { onChange, onBlur, value, name: fieldName, ref }
@@ -20,6 +28,12 @@ export const Select = ({ control, name, rules = {}, ...rest }) => {
 }
 
 Input.propTypes = {
+  control: PropTypes.object.isRequired,
+  name: PropTypes.string.isRequired,
+  rules: PropTypes.object
+}
+
+InputPassword.propTypes = {
   control: PropTypes.object.isRequired,
   name: PropTypes.string.isRequired,
   rules: PropTypes.object
