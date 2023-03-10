@@ -5,15 +5,27 @@ import dynamic from 'next/dynamic'
 import { ConfigProvider, Spin } from 'antd'
 import { Hydrate, QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
+import { SessionProvider } from 'next-auth/react'
 
 import GlobalStyle from 'styles/global-styles'
 import '../styles/globals.css'
 import useApp from '@shared/hooks/use-app'
-import { SessionProvider } from 'next-auth/react'
 
-// TODO: add proper loader
 const MainLayout = dynamic(() => import('@shared/components/layouts/main-layout'), {
-  loading: () => <Spin spinning size="default" />,
+  loading: () => (
+    <Spin
+      spinning
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh',
+        width: '100vw',
+        backgroundColor: '#f5f5f5',
+        color: '#4d186e'
+      }}
+    />
+  ),
   ssr: false
 })
 
