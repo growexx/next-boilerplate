@@ -12,11 +12,11 @@ import useDebounce from '@shared/hooks/use-debounce'
 const RepoList = () => {
   const { handleSubmit, formState, control, watch } = useForm()
   const userName = watch('username')
-  const debounedSearchValue = useDebounce(userName, 300)
+  const debouncedSearchValue = useDebounce(userName, 300)
 
   const { isFetching, data, isError, refetch } = useQuery(
-    ['userNameSearchQuery', debounedSearchValue],
-    () => searchUserName(debounedSearchValue),
+    ['userNameSearchQuery', debouncedSearchValue],
+    () => searchUserName(debouncedSearchValue),
     {
       enabled: !!userName
     }
@@ -58,17 +58,31 @@ const RepoList = () => {
       })
   }
 
+  const RepoLoader = () => (
+    <>
+      {new Array(5).fill(0).map((_, index) => (
+        <>
+          <Skeleton.Input active block size="small" key={index} />
+          <br />
+          <br />
+        </>
+      ))}
+    </>
+  )
+
   return (
     <div>
       <Section>
         <h2>Try me!</h2>
-        <form onSubmit={handleSubmit(onSubmit)}>
+
+        <Form onFinish={handleSubmit(onSubmit)}>
           <Form.Item {...formItemLayout} label="Show Github repositories by @" {...formItemWithErrorProps('username')}>
             <Input control={control} name="username" placeholder="John" />
           </Form.Item>
-        </form>
-        {isFetching && <Skeleton.Input active block />}
-        {data && data.length > 0 && !isError && <List items={data} component={RepoListItem} />}
+        </Form>
+
+        {isFetching && <RepoLoader />}
+        {data && data.length > 0 && !isError && !isFetching && <List items={data} component={RepoListItem} />}
         {data && data.message && !isFetching && <p>No data found</p>}
       </Section>
     </div>
