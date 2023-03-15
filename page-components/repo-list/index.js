@@ -50,7 +50,7 @@ const RepoList = () => {
     [formState.errors]
   )
 
-  const searchUserName = (userName) => {
+  const searchUserName = async (userName) => {
     return fetch(`https://api.github.com/users/${userName}/repos`)
       .then((res) => res.json())
       .then((data) => {
@@ -75,7 +75,7 @@ const RepoList = () => {
       <Section>
         <h2>Try me!</h2>
 
-        <Form onFinish={handleSubmit(onSubmit)}>
+        <Form onFinish={handleSubmit(onSubmit)} data-testid="repo-form">
           <Form.Item {...formItemLayout} label="Show Github repositories by @" {...formItemWithErrorProps('username')}>
             <Input control={control} name="username" placeholder="John" />
           </Form.Item>

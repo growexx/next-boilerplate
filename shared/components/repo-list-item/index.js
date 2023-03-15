@@ -13,7 +13,7 @@ export function RepoListItem(props) {
 
   // If the repository is owned by a different person than we got the data for
   // it's a fork and we should show the name of the owner
-  if (item.owner.login !== props.currentUser) {
+  if (item?.owner?.login !== props?.currentUser) {
     namePrefix = `${item.owner.login}/`
   }
 
