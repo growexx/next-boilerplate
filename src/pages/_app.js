@@ -43,12 +43,14 @@ const queryClientWithDefaultOptions = new QueryClient({
 })
 
 export default function App({ Component, pageProps }) {
-  useApp()
+  const { isAmp } = useApp()
   const [queryClient] = useState(() => queryClientWithDefaultOptions)
 
   const GetPageWithLayout = () => {
     if (Component.getLayout) {
       return Component.getLayout(<Component {...pageProps} />)
+    } else if (isAmp) {
+      return <Component {...pageProps} />
     } else {
       return (
         <MainLayout>

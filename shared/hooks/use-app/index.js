@@ -1,9 +1,11 @@
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import NProgress from 'nprogress'
+import { useAmp } from 'next/amp'
 
 const useApp = () => {
   const router = useRouter()
+  const isAmp = useAmp()
 
   useEffect(() => {
     const handleRouteChange = (url) => {
@@ -25,6 +27,6 @@ const useApp = () => {
     }
   }, [router.events])
 
-  return {}
+  return { isAmp }
 }
 export default useApp
