@@ -18,7 +18,7 @@ module.exports = {
     '^@public/(.*)$': '<rootDir>/public/$1',
     '^@page-components/(.*)$': '<rootDir>/page-components/$1'
   },
-  testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/.next/', '<rootDir>/internals/'],
+  testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/.next/', '<rootDir>/internals/', '<rootDir>/docs/'],
   transform: {
     '^.+\\.(js|jsx|ts|tsx)$': ['babel-jest', { presets: ['next/babel'] }]
   },

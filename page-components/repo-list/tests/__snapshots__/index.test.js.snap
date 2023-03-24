@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepoList displays the list of repositories when the user types 1`] = `
+<div>
+  <div>
+    <section
+      class="sc-guDLRT bfcjQx"
+    >
+      <h2>
+        Try me!
+      </h2>
+      <form
+        class="ant-form ant-form-horizontal css-dev-only-do-not-override-1me4733"
+        data-testid="repo-form"
+      >
+        <div
+          class="ant-form-item css-dev-only-do-not-override-1me4733"
+        >
+          <div
+            class="ant-row ant-form-item-row css-dev-only-do-not-override-1me4733"
+          >
+            <div
+              class="ant-col ant-form-item-label ant-col-xs-24 ant-col-sm-6 css-dev-only-do-not-override-1me4733"
+            >
+              <label
+                class=""
+                for="username"
+                title="Show Github repositories by @"
+              >
+                Show Github repositories by @
+              </label>
+            </div>
+            <div
+              class="ant-col ant-form-item-control ant-col-xs-24 ant-col-sm-14 css-dev-only-do-not-override-1me4733"
+            >
+              <div
+                class="ant-form-item-control-input"
+              >
+                <div
+                  class="ant-form-item-control-input-content"
+                >
+                  <input />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+      <div
+        class="sc-hLQRIN eLwRgN"
+      >
+        <ul
+          class="sc-dmyDGi xFDLM"
+        >
+          <li
+            class="sc-fsYeqs gyvjAQ"
+          >
+            <div
+              class="sc-iBdmCd hxIWsA"
+            >
+              <div
+                class="sc-gLLvby iDyhOx"
+              >
+                <a
+                  class="sc-jTQDnj hAgjqR"
+                  target="_blank"
+                >
+                  js/AFNetworking
+                </a>
+                <a
+                  class="sc-eDLJxc hPLJgd"
+                  href="undefined/issues"
+                  target="_blank"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 14 16"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li
+            class="sc-fsYeqs gyvjAQ"
+          >
+            <div
+              class="sc-iBdmCd hxIWsA"
+            >
+              <div
+                class="sc-gLLvby iDyhOx"
+              >
+                <a
+                  class="sc-jTQDnj hAgjqR"
+                  target="_blank"
+                >
+                  js/analytics-ios-integration-mixpanel
+                </a>
+                <a
+                  class="sc-eDLJxc hPLJgd"
+                  href="undefined/issues"
+                  target="_blank"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 14 16"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</div>
+`;
