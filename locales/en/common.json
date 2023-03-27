@@ -1,7 +1,3 @@
 {
-  "Hello": "Hello",
-  "footer": {
-    "copyRightMessage": "&copy; {{year}} React Boilerplate",
-    "copyRightSubMessage": "Get started with your next react application in seconds."
-  }
+  "Welcome": "Welcome to Next.js"
 }
