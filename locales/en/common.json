@@ -1,3 +1,7 @@
 {
-  "Welcome": "Welcome to Next.js"
+  "Welcome": "Welcome to Next.js",
+  "footer": {
+    "copyRightMessage": "&copy; {{year}} Next Boilerplate",
+    "copyRightSubMessage": "Get started with your next Nextjs application in seconds."
+  }
 }

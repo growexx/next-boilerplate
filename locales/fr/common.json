@@ -1,3 +1,7 @@
 {
-  "Welcome": "Bienvenue sur Next.js"
+  "Welcome": "Bienvenue sur Next.js",
+  "footer": {
+    "copyRightMessage": "&copy; {{year}} Next Passe-partout",
+    "copyRightSubMessage": "Commencez avec votre prochaine application Nextjs en quelques secondes."
+  }
 }
