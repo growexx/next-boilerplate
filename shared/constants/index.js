@@ -35,7 +35,8 @@ export const ROUTES = {
   PRODUCTS: '/products',
   SSR_DEMO: '/ssr-demo',
   EN: '/',
-  FR: '/fr'
+  FR: '/fr',
+  INTERNATIONALIZATION_DEMO: '/internationalization-demo'
 }
 
 // API-ROUTES

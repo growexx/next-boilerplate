@@ -1,5 +1,6 @@
 import React from 'react'
 import { Dropdown, Menu } from 'antd'
+import { GlobalOutlined } from '@ant-design/icons'
 import PropTypes from 'prop-types'
 import Link from 'next/link'
 import { InternationalizationWrapper } from './StyledInternationalization'
@@ -13,14 +14,14 @@ const getMenu = (MenuItems) => (
     ))}
   </Menu>
 )
-const Avatar = (props) => (
+const Internationalization = (props) => (
   <InternationalizationWrapper>
-    <Dropdown.Button overlay={getMenu(props.menu)} placement="bottom" />
+    <Dropdown.Button overlay={getMenu(props.menu)} placement="bottom" icon={<GlobalOutlined />} />
   </InternationalizationWrapper>
 )
 
-export default Avatar
+export default Internationalization
 
-Avatar.propTypes = {
+Internationalization.propTypes = {
   menu: PropTypes.array
 }
