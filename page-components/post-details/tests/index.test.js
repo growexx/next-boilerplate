@@ -1,3 +1,4 @@
+/* eslint-disable testing-library/no-node-access */
 import React from 'react'
 import { render, screen } from '@testing-library/react'
 import { useRouter } from 'next/router'
@@ -45,7 +46,6 @@ describe('PostDetails', () => {
       isLoading: true
     })
     render(<PostDetails />)
-    // eslint-disable-next-line testing-library/no-node-access
     expect(document.getElementsByClassName('ant-skeleton-title')).toBeTruthy()
   })
 })

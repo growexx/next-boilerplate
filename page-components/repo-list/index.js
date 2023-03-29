@@ -8,6 +8,7 @@ import { Section } from './styled'
 import List from '@shared/components/list'
 import RepoListItem from '@shared/components/repo-list-item'
 import useDebounce from '@shared/hooks/use-debounce'
+import { TEST_IDS } from './stub'
 
 const RepoList = () => {
   const { handleSubmit, formState, control, watch } = useForm()
@@ -75,7 +76,7 @@ const RepoList = () => {
       <Section>
         <h2>Try me!</h2>
 
-        <Form onFinish={handleSubmit(onSubmit)} data-testid="repo-form">
+        <Form onFinish={handleSubmit(onSubmit)} data-testid={TEST_IDS.REPO_FORM} autoComplete="off">
           <Form.Item {...formItemLayout} label="Show Github repositories by @" {...formItemWithErrorProps('username')}>
             <Input control={control} name="username" placeholder="John" />
           </Form.Item>

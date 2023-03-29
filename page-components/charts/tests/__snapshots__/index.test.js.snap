@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check component:<Charts /> is rendering properly Should render and match the snapshot 1`] = `
+<div>
+  <div>
+    <div
+      class="ant-row d-flex justify-content-around flex-row w-100 css-dev-only-do-not-override-1e3x2xa"
+    >
+      <div
+        class="ant-space css-dev-only-do-not-override-1e3x2xa ant-space-horizontal ant-space-align-center sc-jTrPJq jnwImj d-flex justify-content-around flex-row w-100"
+      >
+        <div
+          class="ant-space-item"
+          style="margin-right: 8px;"
+        >
+          <div
+            class="ant-statistic m-4 css-dev-only-do-not-override-1e3x2xa"
+          >
+            <div
+              class="ant-statistic-title"
+            >
+              New Users
+            </div>
+            <div
+              class="ant-statistic-content"
+            >
+              <span
+                class="ant-statistic-content-value"
+              >
+                <span
+                  class="ant-statistic-content-value-int"
+                >
+                  000
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-space-item"
+          style="margin-right: 8px;"
+        >
+          <div
+            class="ant-statistic m-4 css-dev-only-do-not-override-1e3x2xa"
+          >
+            <div
+              class="ant-statistic-title"
+            >
+              Payouts
+            </div>
+            <div
+              class="ant-statistic-content"
+            >
+              <span
+                class="ant-statistic-content-prefix"
+              >
+                $
+              </span>
+              <span
+                class="ant-statistic-content-value"
+              >
+                <span
+                  class="ant-statistic-content-value-int"
+                >
+                  0
+                </span>
+                <span
+                  class="ant-statistic-content-value-decimal"
+                >
+                  .00
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-space-item"
+        >
+          <div
+            class="ant-statistic m-4 css-dev-only-do-not-override-1e3x2xa"
+          >
+            <div
+              class="ant-statistic-title"
+            >
+              Earnings
+            </div>
+            <div
+              class="ant-statistic-content"
+            >
+              <span
+                class="ant-statistic-content-prefix"
+              >
+                $
+              </span>
+              <span
+                class="ant-statistic-content-value"
+              >
+                <span
+                  class="ant-statistic-content-value-int"
+                >
+                  0
+                </span>
+                <span
+                  class="ant-statistic-content-value-decimal"
+                >
+                  .00
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-divider css-dev-only-do-not-override-1e3x2xa ant-divider-horizontal"
+      role="separator"
+      width="auto"
+    />
+    <div
+      class="ant-row m-1 d-flex justify-content-center flex-row align-items-start css-dev-only-do-not-override-1e3x2xa"
+    >
+      <div
+        class="sc-eDDNvR HfINd d-flex justify-content-center flex-column"
+      >
+        <h4>
+          Sales by Category
+        </h4>
+        <div
+          class="ant-space css-dev-only-do-not-override-1e3x2xa ant-space-horizontal ant-space-align-center d-flex justify-content-around flex-row m-2"
+        >
+          <div
+            class="ant-space-item"
+          >
+            <div
+              class="ant-skeleton ant-skeleton-element ant-skeleton-active css-dev-only-do-not-override-1e3x2xa"
+            >
+              <span
+                class="ant-skeleton-button ant-skeleton-button-lg ant-skeleton-button-circle"
+                style="width: 250px; height: 250px;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-eDDNvR HfINd d-flex justify-content-center flex-column"
+      >
+        <h4>
+          Sales by University
+        </h4>
+        <div
+          class="ant-space css-dev-only-do-not-override-1e3x2xa ant-space-horizontal ant-space-align-center d-flex justify-content-around flex-row m-2"
+        >
+          <div
+            class="ant-space-item"
+          >
+            <div
+              class="ant-skeleton ant-skeleton-element ant-skeleton-active css-dev-only-do-not-override-1e3x2xa"
+            >
+              <span
+                class="ant-skeleton-button ant-skeleton-button-lg ant-skeleton-button-circle"
+                style="width: 250px; height: 250px;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-row sc-dmqHEX iiIgOH mt-5 d-flex justify-content-center flex-column w-90 css-dev-only-do-not-override-1e3x2xa"
+      >
+        <h4>
+          Sign up
+        </h4>
+        <div
+          class="ant-space css-dev-only-do-not-override-1e3x2xa ant-space-horizontal ant-space-align-center d-flex justify-content-around flex-row w-100"
+        >
+          <div
+            class="ant-space-item"
+          >
+            <div
+              class="ant-skeleton ant-skeleton-element ant-skeleton-active css-dev-only-do-not-override-1e3x2xa"
+            >
+              <span
+                class="ant-skeleton-button ant-skeleton-button-lg"
+                style="width: 500px; height: 250px;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

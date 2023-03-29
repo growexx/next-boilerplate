@@ -7,6 +7,17 @@ jest.mock('next/dynamic', () => () => {
   return DynamicComponent
 })
 
+jest.mock('next/router', () => ({
+  useRouter() {
+    return {
+      route: '/',
+      pathname: '',
+      query: '',
+      asPath: ''
+    }
+  }
+}))
+
 beforeAll(() => {
   Object.defineProperty(window, 'matchMedia', {
     writable: true,

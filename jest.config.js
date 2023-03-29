@@ -1,5 +1,21 @@
 module.exports = {
-  collectCoverageFrom: ['**/*.{js,jsx,ts,tsx}', '!**/*.d.ts', '!**/node_modules/**'],
+  // collectCoverageFrom: ['**/*.{js,jsx,ts,tsx}', '!**/*.d.ts', '!**/node_modules/**'],
+  collectCoverageFrom: [
+    'src/**/*.{js,jsx}',
+    '!src/**/*.test.{js,jsx}',
+    'page-components/**/*.{js,jsx}',
+    '!page-components/**/*.test.{js,jsx}',
+    'shared/**/*.{js,jsx}',
+    '!shared/**/*.test.{js,jsx}'
+  ],
+  coverageThreshold: {
+    global: {
+      statements: 90,
+      branches: 90,
+      functions: 90,
+      lines: 90
+    }
+  },
   moduleFileExtensions: ['js', 'jsx', 'json', 'png', 'md', 'html'],
   moduleNameMapper: {
     '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|md|html)$': '<rootDir>/fileTransformer.js',

@@ -1,0 +1,4 @@
+export const TEST_IDS = {
+  REPO_FORM: 'REPO_FORM',
+  REPO_LOADER: 'REPO_LOADER'
+}
