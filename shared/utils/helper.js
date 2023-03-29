@@ -1,6 +1,8 @@
 // import { TOKEN_KEY, USER_DATA_KEY } from './constants.js'
 // import StorageService from './StorageService'
 
+import StorageService from './StorageService'
+
 export function userExists() {
   //   if (StorageService.exists(TOKEN_KEY)) {
   //     return true
