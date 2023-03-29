@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { API_ENDPOINTS } from '@shared/constants'
 
 const UserPage = (props) => {
   return (
@@ -13,7 +14,7 @@ const UserPage = (props) => {
 }
 
 export const getStaticProps = async () => {
-  const data = await (await fetch('https://dummyjson.com/users')).json()
+  const data = await (await fetch(`${API_ENDPOINTS.DUMMY_USER}`)).json()
   return {
     props: {
       data

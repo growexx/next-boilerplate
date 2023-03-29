@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { API_ENDPOINTS } from '@shared/constants'
 
 const UserInfo = (props) => {
   return (
@@ -10,7 +11,7 @@ const UserInfo = (props) => {
 }
 
 export const getStaticPaths = async () => {
-  const data = await (await fetch('https://dummyjson.com/users')).json()
+  const data = await (await fetch(`${API_ENDPOINTS.DUMMY_USER}`)).json()
   const allUserIds = data.users.map((user) => user.id)
 
   return {
@@ -21,7 +22,7 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
   const id = context.params.id
-  const data = await (await fetch(`https://dummyjson.com/users/${id}`)).json()
+  const data = await (await fetch(`${API_ENDPOINTS.DUMMY_USER}/${id}`)).json()
   return {
     props: {
       data
