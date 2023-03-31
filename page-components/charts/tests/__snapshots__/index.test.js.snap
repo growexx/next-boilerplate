@@ -4,17 +4,17 @@ exports[`Check component:<Charts /> is rendering properly Should render and matc
 <div>
   <div>
     <div
-      class="ant-row d-flex justify-content-around flex-row w-100 css-dev-only-do-not-override-1e3x2xa"
+      class="ant-row d-flex justify-content-around flex-row w-100 css-dev-only-do-not-override-1me4733"
     >
       <div
-        class="ant-space css-dev-only-do-not-override-1e3x2xa ant-space-horizontal ant-space-align-center sc-jTrPJq jnwImj d-flex justify-content-around flex-row w-100"
+        class="ant-space css-dev-only-do-not-override-1me4733 ant-space-horizontal ant-space-align-center sc-jTQDnj bZAZEO d-flex justify-content-around flex-row w-100"
       >
         <div
           class="ant-space-item"
           style="margin-right: 8px;"
         >
           <div
-            class="ant-statistic m-4 css-dev-only-do-not-override-1e3x2xa"
+            class="ant-statistic m-4 css-dev-only-do-not-override-1me4733"
           >
             <div
               class="ant-statistic-title"
@@ -41,7 +41,7 @@ exports[`Check component:<Charts /> is rendering properly Should render and matc
           style="margin-right: 8px;"
         >
           <div
-            class="ant-statistic m-4 css-dev-only-do-not-override-1e3x2xa"
+            class="ant-statistic m-4 css-dev-only-do-not-override-1me4733"
           >
             <div
               class="ant-statistic-title"
@@ -77,7 +77,7 @@ exports[`Check component:<Charts /> is rendering properly Should render and matc
           class="ant-space-item"
         >
           <div
-            class="ant-statistic m-4 css-dev-only-do-not-override-1e3x2xa"
+            class="ant-statistic m-4 css-dev-only-do-not-override-1me4733"
           >
             <div
               class="ant-statistic-title"
@@ -112,27 +112,27 @@ exports[`Check component:<Charts /> is rendering properly Should render and matc
       </div>
     </div>
     <div
-      class="ant-divider css-dev-only-do-not-override-1e3x2xa ant-divider-horizontal"
+      class="ant-divider css-dev-only-do-not-override-1me4733 ant-divider-horizontal"
       role="separator"
       width="auto"
     />
     <div
-      class="ant-row m-1 d-flex justify-content-center flex-row align-items-start css-dev-only-do-not-override-1e3x2xa"
+      class="ant-row m-1 d-flex justify-content-center flex-row align-items-start css-dev-only-do-not-override-1me4733"
     >
       <div
-        class="sc-eDDNvR HfINd d-flex justify-content-center flex-column"
+        class="sc-eDLJxc cIhhKD d-flex justify-content-center flex-column"
       >
         <h4>
           Sales by Category
         </h4>
         <div
-          class="ant-space css-dev-only-do-not-override-1e3x2xa ant-space-horizontal ant-space-align-center d-flex justify-content-around flex-row m-2"
+          class="ant-space css-dev-only-do-not-override-1me4733 ant-space-horizontal ant-space-align-center d-flex justify-content-around flex-row m-2"
         >
           <div
             class="ant-space-item"
           >
             <div
-              class="ant-skeleton ant-skeleton-element ant-skeleton-active css-dev-only-do-not-override-1e3x2xa"
+              class="ant-skeleton ant-skeleton-element ant-skeleton-active css-dev-only-do-not-override-1me4733"
             >
               <span
                 class="ant-skeleton-button ant-skeleton-button-lg ant-skeleton-button-circle"
@@ -143,19 +143,19 @@ exports[`Check component:<Charts /> is rendering properly Should render and matc
         </div>
       </div>
       <div
-        class="sc-eDDNvR HfINd d-flex justify-content-center flex-column"
+        class="sc-eDLJxc cIhhKD d-flex justify-content-center flex-column"
       >
         <h4>
           Sales by University
         </h4>
         <div
-          class="ant-space css-dev-only-do-not-override-1e3x2xa ant-space-horizontal ant-space-align-center d-flex justify-content-around flex-row m-2"
+          class="ant-space css-dev-only-do-not-override-1me4733 ant-space-horizontal ant-space-align-center d-flex justify-content-around flex-row m-2"
         >
           <div
             class="ant-space-item"
           >
             <div
-              class="ant-skeleton ant-skeleton-element ant-skeleton-active css-dev-only-do-not-override-1e3x2xa"
+              class="ant-skeleton ant-skeleton-element ant-skeleton-active css-dev-only-do-not-override-1me4733"
             >
               <span
                 class="ant-skeleton-button ant-skeleton-button-lg ant-skeleton-button-circle"
@@ -166,19 +166,19 @@ exports[`Check component:<Charts /> is rendering properly Should render and matc
         </div>
       </div>
       <div
-        class="ant-row sc-dmqHEX iiIgOH mt-5 d-flex justify-content-center flex-column w-90 css-dev-only-do-not-override-1e3x2xa"
+        class="ant-row sc-dmyDGi bAQgQp mt-5 d-flex justify-content-center flex-column w-90 css-dev-only-do-not-override-1me4733"
       >
         <h4>
           Sign up
         </h4>
         <div
-          class="ant-space css-dev-only-do-not-override-1e3x2xa ant-space-horizontal ant-space-align-center d-flex justify-content-around flex-row w-100"
+          class="ant-space css-dev-only-do-not-override-1me4733 ant-space-horizontal ant-space-align-center d-flex justify-content-around flex-row w-100"
         >
           <div
             class="ant-space-item"
           >
             <div
-              class="ant-skeleton ant-skeleton-element ant-skeleton-active css-dev-only-do-not-override-1e3x2xa"
+              class="ant-skeleton ant-skeleton-element ant-skeleton-active css-dev-only-do-not-override-1me4733"
             >
               <span
                 class="ant-skeleton-button ant-skeleton-button-lg"

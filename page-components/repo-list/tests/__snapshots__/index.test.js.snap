@@ -4,24 +4,24 @@ exports[`RepoList displays the list of repositories when the user types 1`] = `
 <div>
   <div>
     <section
-      class="sc-gueYoa lfZlwk"
+      class="sc-guDLRT bfcjQx"
     >
       <h2>
         Try me!
       </h2>
       <form
         autocomplete="off"
-        class="ant-form ant-form-horizontal css-dev-only-do-not-override-1e3x2xa"
+        class="ant-form ant-form-horizontal css-dev-only-do-not-override-1me4733"
         data-testid="REPO_FORM"
       >
         <div
-          class="ant-form-item css-dev-only-do-not-override-1e3x2xa"
+          class="ant-form-item css-dev-only-do-not-override-1me4733"
         >
           <div
-            class="ant-row ant-form-item-row css-dev-only-do-not-override-1e3x2xa"
+            class="ant-row ant-form-item-row css-dev-only-do-not-override-1me4733"
           >
             <div
-              class="ant-col ant-form-item-label ant-col-xs-24 ant-col-sm-6 css-dev-only-do-not-override-1e3x2xa"
+              class="ant-col ant-form-item-label ant-col-xs-24 ant-col-sm-6 css-dev-only-do-not-override-1me4733"
             >
               <label
                 class=""
@@ -32,7 +32,7 @@ exports[`RepoList displays the list of repositories when the user types 1`] = `
               </label>
             </div>
             <div
-              class="ant-col ant-form-item-control ant-col-xs-24 ant-col-sm-14 css-dev-only-do-not-override-1e3x2xa"
+              class="ant-col ant-form-item-control ant-col-xs-24 ant-col-sm-14 css-dev-only-do-not-override-1me4733"
             >
               <div
                 class="ant-form-item-control-input"
@@ -48,28 +48,28 @@ exports[`RepoList displays the list of repositories when the user types 1`] = `
         </div>
       </form>
       <div
-        class="sc-hLseeU jooqQK"
+        class="sc-hLQRIN eLwRgN"
       >
         <ul
-          class="sc-dmqHEX izwLmS"
+          class="sc-dmyDGi xFDLM"
         >
           <li
-            class="sc-fsQiph fHjYAv"
+            class="sc-fsYeqs gyvjAQ"
           >
             <div
-              class="sc-iAEyYk jFrmgO"
+              class="sc-iBdmCd hxIWsA"
             >
               <div
-                class="sc-gLDzan eUiHkE"
+                class="sc-gLLvby iDyhOx"
               >
                 <a
-                  class="sc-jTrPJq hHNbiI"
+                  class="sc-jTQDnj hAgjqR"
                   target="_blank"
                 >
                   js/AFNetworking
                 </a>
                 <a
-                  class="sc-eDDNvR KHfKz"
+                  class="sc-eDLJxc hPLJgd"
                   href="undefined/issues"
                   target="_blank"
                 >
@@ -92,22 +92,22 @@ exports[`RepoList displays the list of repositories when the user types 1`] = `
             </div>
           </li>
           <li
-            class="sc-fsQiph fHjYAv"
+            class="sc-fsYeqs gyvjAQ"
           >
             <div
-              class="sc-iAEyYk jFrmgO"
+              class="sc-iBdmCd hxIWsA"
             >
               <div
-                class="sc-gLDzan eUiHkE"
+                class="sc-gLLvby iDyhOx"
               >
                 <a
-                  class="sc-jTrPJq hHNbiI"
+                  class="sc-jTQDnj hAgjqR"
                   target="_blank"
                 >
                   js/analytics-ios-integration-mixpanel
                 </a>
                 <a
-                  class="sc-eDDNvR KHfKz"
+                  class="sc-eDLJxc hPLJgd"
                   href="undefined/issues"
                   target="_blank"
                 >
