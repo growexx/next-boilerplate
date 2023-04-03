@@ -33,3 +33,4 @@ yarn-error.log*
 
 # sonar scanner
 .scannerwork
+sonar-project.properties
