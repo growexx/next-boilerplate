@@ -14,9 +14,6 @@ const Header = (props) =>
   props.menuBackground ? (
     <StyledAppHeaderColored {...props}>
       <AvatarWrapper>
-        {/* TODO: */}
-        {/* <Cart /> */}
-        {/* <Notification /> */}
         <Internationalization menu={LanguageItems} />
         <Avatar menu={MenuItems} />
       </AvatarWrapper>
@@ -24,9 +21,6 @@ const Header = (props) =>
   ) : (
     <StyledAppHeader {...props}>
       <AvatarWrapper>
-        {/* TODO: */}
-        {/* <Cart /> */}
-        {/* <Notification /> */}
         <Internationalization menu={LanguageItems} />
         <Avatar menu={MenuItems} />
       </AvatarWrapper>

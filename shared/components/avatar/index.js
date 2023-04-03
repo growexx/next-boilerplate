@@ -4,8 +4,6 @@ import { UserOutlined } from '@ant-design/icons'
 import PropTypes from 'prop-types'
 import Link from 'next/link'
 
-import { AvatarWrapper } from './StyledAvatar'
-
 const getMenu = (MenuItems) => (
   <Menu>
     {MenuItems.map((menuItem, index) => (
@@ -16,11 +14,9 @@ const getMenu = (MenuItems) => (
   </Menu>
 )
 const Avatar = (props) => (
-  <AvatarWrapper>
-    <Dropdown overlay={getMenu(props.menu)}>
-      <UserOutlined />
-    </Dropdown>
-  </AvatarWrapper>
+  <Dropdown overlay={getMenu(props.menu)}>
+    <UserOutlined />
+  </Dropdown>
 )
 
 export default Avatar
