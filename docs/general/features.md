@@ -13,7 +13,6 @@
 | i18n international support   | Supports multiple languages with next-translate.|
 | SEO support             | Built in SEO support in Nextjs                  |
 | Webpack Chunk Analyser  | npm run analyze                                 |
-| Ngrok support           | npm run start:tunnel                            |
 | Commitzen               | standard way for commits                        |
 | Pre-Commit              | Restriction for commits                         |
 | Font-Awesome            | Inbuilt support for font-awesome                |
@@ -21,7 +20,6 @@
 | App level loader        | Global loader based on app states.              |
 | Hooks Support           | Hooks support provided for the boilerplate.     |
 | Reat Query Support      | Reat Query  provided for the boilerplate.       |
-| Redux-Form              | Redux-Form support added.                       |
 | Social login            | Boilerplate supports social login using firebase|
 | next/image              | Lazy loaded image built in support provided.    |
 | next/head               | Built-in component for appending elements to the head of the page|
@@ -37,12 +35,10 @@
 | Override antd variables | Support added for overriding theme variables  of ant design library variables.  |
 | Less support            | Boilerplate supports less files                 |
 | Styled components       | Boilerplate supports style components out of box|
-| Different Layouts       | Show different layout configured by antD (Just add ?layout=1 in the url and it'll switch to that layout, Currently 3 layouts are added. you can try 1(Vertical), 2(Vertical) and 3 (Horizontal)|
 |                         |                                                 |
 | **Components**          |                                                 |
 |                         |                                                 |
 | Base Layout Integrated  | Base layout with routes, header and sidebar     |
-| Storybook support       | Every component made in boilerplate has storybook     support where you can get visual idea of how component looks                |    
 | Login and Registration  | Login and registration page redux saga and api  |
 | Change Password         | Change Password with api code.                  |
 | Footer component        | Basic footer implemented.                       |
@@ -52,7 +48,6 @@
 | Rich Text editor        | wysiwyg editor                                  |
 | 401, 403, Not found     | Misc cases                                      |
 | InlineEdit              | Inline edit input                               |
-| Notification            | Basic notification implemented                  |
 |                         |                                                 |
 | **Additional Utils**    |                                                 |
 |                         |                                                 |
@@ -61,8 +56,6 @@
 | Localstorage            | Util to add, delete and get items from localstorage |      
 | Event Emitter           | Util to on and off emitter events.              |
 | Form Validations        | Redux form fields with validations              |
-| Inject reducer          | Inject reducer in redux form.                   |
-| Inject saga             | Inject saga in redux form.                      |
 | Loadable                | Load the component asynchronously.              |
 | Request                 | fetch request helper function.                  |
 | Google Analytics        | Analytics helper util.                          |
@@ -75,18 +68,13 @@
 | Loader demo             | Infinite, Load More, Pagination Demo.           |
 | Export CSV              | Table Data Export to csv.                       |
 | Numeral Conversion      | Numeral conversion library examples.            |
-| Redux-form with saga    | redux-form with all form fields.                |
 | Image Upload            | Profile image upload demo.                      |
 | File Upload             | Image Upload component demo.                    |
 | Rich Text Editor        | Rich text editor demo.                          |
-| Google Analytics events | Sidebar clicks capturing GA demo.               |
-| Apollo Hooks demo       | Basic demo for apollo hooks.                    |
 | React-Final-Form        | Basic demo  for React-Final-Form.               |
 | Social Login demo       | Basic demo  for google and facebook login.      |
 | User Management         | Basic demo User list with Pagination, Sort, Search, Filter, Add/Edit/Delete User     |
 | Admin Charts            | Charts Pages with statistics and Filters        |
-| Multi Tab Communication | Demo to communicate between tabs                |
-| Notifications with socket.io | Basic example for real time notifications using socket.io  |
 |                         |                                                 |
 | **Test-Cases**          |                                                 |
 |                         |                                                 |
