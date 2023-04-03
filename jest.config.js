@@ -39,5 +39,5 @@ module.exports = {
   },
   transformIgnorePatterns: ['/node_modules/', '^.+\\.module\\.(css|sass|scss)$'],
   testEnvironment: 'jest-environment-jsdom',
-  setupFilesAfterEnv: ['./jest.setup.js']
+  setupFilesAfterEnv: ['<rootDir>/internals/testing/test-bundler.js', '<rootDir>/jest.setup.js']
 }

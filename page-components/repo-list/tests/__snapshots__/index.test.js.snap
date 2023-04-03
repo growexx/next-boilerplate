@@ -1,10 +1,118 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`RepoList displays the list of repositories when the user types 1`] = `
+.c0 {
+  margin: 3em auto;
+}
+
+.c0:first-child {
+  margin-top: 0;
+}
+
+.c2 {
+  list-style: none;
+  margin: 0;
+  width: 100%;
+  max-height: 30em;
+  overflow-y: auto;
+  padding: 0 1em;
+}
+
+.c1 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.c7 {
+  height: 100%;
+  color: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.c6 {
+  height: 100%;
+  color: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.c5 {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: space-between;
+  -webkit-box-align: space-between;
+  -ms-flex-align: space-between;
+  align-items: space-between;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  width: 100%;
+  height: 3em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  border-top: 1px solid #eee;
+}
+
+.c3:first-child {
+  border-top: none;
+}
+
 <div>
   <div>
     <section
-      class="sc-gueYoa lfZlwk"
+      class="c0"
     >
       <h2>
         Try me!
@@ -48,28 +156,28 @@ exports[`RepoList displays the list of repositories when the user types 1`] = `
         </div>
       </form>
       <div
-        class="sc-hLseeU jooqQK"
+        class="c1"
       >
         <ul
-          class="sc-dmqHEX izwLmS"
+          class="c2"
         >
           <li
-            class="sc-fsQiph fHjYAv"
+            class="c3"
           >
             <div
-              class="sc-iAEyYk jFrmgO"
+              class="c4"
             >
               <div
-                class="sc-gLDzan eUiHkE"
+                class="c5"
               >
                 <a
-                  class="sc-jTrPJq hHNbiI"
+                  class="c6"
                   target="_blank"
                 >
                   js/AFNetworking
                 </a>
                 <a
-                  class="sc-eDDNvR KHfKz"
+                  class="c7"
                   href="undefined/issues"
                   target="_blank"
                 >
@@ -92,22 +200,22 @@ exports[`RepoList displays the list of repositories when the user types 1`] = `
             </div>
           </li>
           <li
-            class="sc-fsQiph fHjYAv"
+            class="c3"
           >
             <div
-              class="sc-iAEyYk jFrmgO"
+              class="c4"
             >
               <div
-                class="sc-gLDzan eUiHkE"
+                class="c5"
               >
                 <a
-                  class="sc-jTrPJq hHNbiI"
+                  class="c6"
                   target="_blank"
                 >
                   js/analytics-ios-integration-mixpanel
                 </a>
                 <a
-                  class="sc-eDDNvR KHfKz"
+                  class="c7"
                   href="undefined/issues"
                   target="_blank"
                 >

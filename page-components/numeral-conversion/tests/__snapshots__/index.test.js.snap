@@ -1,15 +1,91 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`NumeralConversion renders Numbers table 1`] = `
+.c0 {
+  text-align: center;
+  font-weight: @font-weight-bold;
+  color: @primary-color;
+}
+
+.c1 {
+  margin: 31px 18px;
+}
+
+.c2 {
+  margin: 31px 18px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: @padding-xs;
+  border: 1px solid @border-color-base;
+}
+
+.c2 p:first-child {
+  font-weight: @font-weight-bold;
+  margin-top: @margin-xs;
+  font-size: 22px;
+}
+
+.c2 p:nth-child(2) {
+  font-weight: @font-weight-medium;
+  color: @heading-color;
+}
+
+.c3 {
+  margin: 31px 18px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: @padding-xs;
+}
+
+.c3 p:first-child {
+  font-weight: @font-weight-bold;
+  margin-top: @margin-xs;
+  font-size: 22px;
+}
+
+.c3 p:nth-child(2) {
+  margin-top: 0px;
+  font-weight: @font-weight-medium;
+  color: @heading-color;
+}
+
+@media screen and (max-width:400px) {
+  .c1 {
+    margin: 31px -15px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .c2 {
+    margin: 31px -15px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .c3 {
+    margin: 31px -15px;
+  }
+}
+
 <div>
   <div>
     <p
-      class="sc-beqWaB dZuHYZ"
+      class="c0"
     >
       This demo uses numeral library for conversion of number
     </p>
     <div
-      class="sc-gueYoa fXbNOq"
+      class="c1"
     >
       <span
         class="ant-input-group-wrapper ant-input-search ant-input-search-with-button css-dev-only-do-not-override-1vtf12y"
@@ -39,7 +115,7 @@ exports[`NumeralConversion renders Numbers table 1`] = `
       </span>
     </div>
     <div
-      class="sc-dmqHEX jBkHlr"
+      class="c2"
     >
       <p>
         Create
@@ -147,7 +223,7 @@ exports[`NumeralConversion renders Numbers table 1`] = `
       </div>
     </div>
     <div
-      class="sc-hLseeU iWkebQ"
+      class="c3"
     >
       <p>
         Format
@@ -157,7 +233,7 @@ exports[`NumeralConversion renders Numbers table 1`] = `
       </p>
     </div>
     <div
-      class="sc-dmqHEX jBkHlr"
+      class="c2"
     >
       <p>
         Numbers
@@ -646,7 +722,7 @@ exports[`NumeralConversion renders Numbers table 1`] = `
       </div>
     </div>
     <div
-      class="sc-dmqHEX jBkHlr"
+      class="c2"
     >
       <p>
         Currency
@@ -874,7 +950,7 @@ exports[`NumeralConversion renders Numbers table 1`] = `
       </div>
     </div>
     <div
-      class="sc-dmqHEX jBkHlr"
+      class="c2"
     >
       <p>
         Bytes
@@ -1122,7 +1198,7 @@ exports[`NumeralConversion renders Numbers table 1`] = `
       </div>
     </div>
     <div
-      class="sc-dmqHEX jBkHlr"
+      class="c2"
     >
       <p>
         Percentages
@@ -1310,7 +1386,7 @@ exports[`NumeralConversion renders Numbers table 1`] = `
       </div>
     </div>
     <div
-      class="sc-dmqHEX jBkHlr"
+      class="c2"
     >
       <p>
         Time
@@ -1478,7 +1554,7 @@ exports[`NumeralConversion renders Numbers table 1`] = `
       </div>
     </div>
     <div
-      class="sc-dmqHEX jBkHlr"
+      class="c2"
     >
       <p>
         Exponential

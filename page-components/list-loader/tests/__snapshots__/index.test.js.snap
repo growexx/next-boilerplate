@@ -1,8 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<ListLoader /> should render and match the snapshot 1`] = `
+.c1 .demo-infinite-container {
+  overflow: auto;
+  border-radius: 4px;
+}
+
+.c1 .demo-loading-container {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.c0 .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: @primary-color;
+}
+
+.c0 .ant-list-item-meta {
+  -webkit-align-items: center !important;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
 <div
-  class="sc-gueYoa gAxaSg"
+  class="c0"
 >
   <div
     class="ant-tabs ant-tabs-top css-dev-only-do-not-override-1vtf12y"
@@ -120,7 +143,7 @@ exports[`<ListLoader /> should render and match the snapshot 1`] = `
           tabindex="0"
         >
           <div
-            class="sc-beqWaB cokxZS"
+            class="c1"
           >
             <div
               class="demo-infinite-container"
