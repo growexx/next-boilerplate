@@ -4,32 +4,7 @@ import { useQuery } from '@tanstack/react-query'
 import '@testing-library/jest-dom'
 
 import RepoList from '../index'
-import { TEST_IDS } from '../stub'
-
-const mockRepoData = [
-  {
-    id: 2618963,
-    node_id: 'MDEwOlJlcG9zaXRvcnkyNjE4OTYz',
-    name: 'AFNetworking',
-    full_name: 'js/AFNetworking',
-    private: false,
-    owner: {
-      login: 'js',
-      id: 23626
-    }
-  },
-  {
-    id: 459905452,
-    node_id: 'R_kgDOG2mZrA',
-    name: 'analytics-ios-integration-mixpanel',
-    full_name: 'js/analytics-ios-integration-mixpanel',
-    private: false,
-    owner: {
-      login: 'js',
-      id: 23626
-    }
-  }
-]
+import { TEST_IDS, mockRepoData } from '../stub'
 
 // Mock the fetch function and return a mock response
 global.fetch = jest.fn(() =>
