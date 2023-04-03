@@ -204,7 +204,7 @@ describe('Update User', () => {
       .mockImplementationOnce(() => Promise.resolve(addNewUserFailure()))
     render(<UserManagement />)
     expect(request).toHaveBeenCalledTimes(1)
-    await waitForElement(() => screen.getByText('Active') || screen.getByText('Suspended'))
+    await waitFor(() => screen.getByText('Active') || screen.getByText('Suspended'))
     fireEvent.click(screen.getByTestId(TEST_IDS.EDIT_BUTTON))
     fieldUpdateViaPlaceHolder.forEach((d) => {
       fireEvent.change(screen.getByPlaceholderText(d.key), {
