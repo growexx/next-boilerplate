@@ -1,0 +1,8 @@
+{
+  "Welcome": "Bienvenue sur Next.js",
+  "footer": {
+    "copyRightMessage": "&copy; {{year}} Next Passe-partout",
+    "copyRightSubMessage": "Commencez avec votre prochaine application Nextjs en quelques secondes."
+  },
+  "internationalizationPara": "Un paragraphe est une série de phrases organisées et cohérentes, toutes liées à un même sujet. Presque tous les écrits que vous faites et qui dépassent quelques phrases doivent être organisés en paragraphes."
+}

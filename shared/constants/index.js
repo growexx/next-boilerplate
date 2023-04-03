@@ -34,7 +34,10 @@ export const ROUTES = {
   MULTI_TAB_SUPPORT: '/multi-tab-support',
   PRODUCTS: '/products',
   SSR_DEMO: '/ssr-demo',
-  SSG_DEMO: '/ssg-demo/user'
+  SSG_DEMO: '/ssg-demo/user',
+  EN: '/',
+  FR: '/fr',
+  INTERNATIONALIZATION_DEMO: '/internationalization-demo'
 }
 
 // API-ROUTES
