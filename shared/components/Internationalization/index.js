@@ -16,7 +16,9 @@ const getMenu = (MenuItems) => (
 )
 const Internationalization = (props) => (
   <InternationalizationWrapper>
-    <Dropdown.Button overlay={getMenu(props.menu)} placement="bottom" icon={<GlobalOutlined />} />
+    <Dropdown overlay={getMenu(props.menu)}>
+      <GlobalOutlined />
+    </Dropdown>
   </InternationalizationWrapper>
 )
 
