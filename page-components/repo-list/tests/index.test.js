@@ -76,8 +76,8 @@ describe('RepoList', () => {
     await act(() => promise)
     useQuery.mockImplementation(() => promise)
     expect(container).toMatchSnapshot()
-    expect(screen.getByText(`${mockRepoData[0]?.owner.login + '/' + mockRepoData[0]?.name}`)).toBeInTheDocument()
-    expect(screen.getByText(`${mockRepoData[1]?.owner.login + '/' + mockRepoData[1]?.name}`)).toBeInTheDocument()
+    expect(screen.getByText(`${mockRepoData[0]?.owner.login}/${mockRepoData[0]?.name}`)).toBeInTheDocument()
+    expect(screen.getByText(`${mockRepoData[1]?.owner.login}/${mockRepoData[1]?.name}`)).toBeInTheDocument()
   })
 
   it('refetch on form submit', async () => {

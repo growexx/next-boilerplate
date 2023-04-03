@@ -51,17 +51,9 @@ const RepoList = () => {
     [formState.errors]
   )
 
-  const searchUserName = async (userName) => {
-    return fetch(`https://api.github.com/users/${userName}/repos`)
-      .then((res) => res.json())
-      .then((data) => {
-        return data
-      })
-  }
-
   const RepoLoader = () => (
     <>
-      {new Array(5).fill(0).map((_, index) => (
+      {Array.from({ length: 5 }).map((_, index) => (
         <div key={index}>
           <Skeleton.Input active block size="small" />
           <br />
@@ -70,6 +62,14 @@ const RepoList = () => {
       ))}
     </>
   )
+
+  const searchUserName = async (userName) => {
+    return fetch(`https://api.github.com/users/${userName}/repos`)
+      .then((res) => res.json())
+      .then((data) => {
+        return data
+      })
+  }
 
   return (
     <div>
@@ -83,7 +83,7 @@ const RepoList = () => {
         </Form>
 
         {isFetching && <RepoLoader />}
-        {data && data.length > 0 && !isError && !isFetching && <List items={data} component={RepoListItem} />}
+        {data?.length > 0 && !isError && !isFetching && <List items={data} component={RepoListItem} />}
         {data && data.message && !isFetching && <p>No data found</p>}
       </Section>
     </div>

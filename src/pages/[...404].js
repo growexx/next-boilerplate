@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 import { ROUTES } from '@shared/constants'
 
-export default function NotFound() {
+const NotFound = () => {
   return (
     <article>
       <Result
@@ -16,6 +16,9 @@ export default function NotFound() {
     </article>
   )
 }
+
+export default NotFound
+
 NotFound.getLayout = (page) => {
   return page
 }

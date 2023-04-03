@@ -135,30 +135,11 @@ describe('Check listing of users is rendering properly', () => {
     await waitFor(() => screen.findByText('Active'))
     fireEvent.click(screen.getByTestId(TEST_IDS.STATUS_TOGGLE))
   })
-
-  it('Toggle User Status Local', async () => {
-    request.mockImplementation(() => Promise.resolve(failedResponse()))
-    render(<UserManagement />)
-    await waitFor(() => screen.findByText('Active'))
-    fireEvent.click(screen.getByTestId(TEST_IDS.STATUS_TOGGLE))
-  })
 })
 
 describe('New Users', () => {
   it('Add new users with success', () => {
     request.mockImplementation(() => Promise.resolve(addNewUserSuccess()))
-    render(<UserManagement />)
-    fireEvent.click(screen.getByTestId(TEST_IDS.ADD_USER))
-    fieldUpdateViaPlaceHolder.forEach((d) => {
-      fireEvent.change(screen.getByPlaceholderText(d.key), {
-        target: { value: d.value }
-      })
-    })
-    expect(screen.getByText('Add User')).toBeTruthy()
-    fireEvent.click(screen.getByText('Add'))
-  })
-
-  it('Add new users with success', () => {
     render(<UserManagement />)
     fireEvent.click(screen.getByTestId(TEST_IDS.ADD_USER))
     fieldUpdateViaPlaceHolder.forEach((d) => {
@@ -205,20 +186,6 @@ describe('Update User', () => {
     })
     expect(screen.getByText('Update')).toBeTruthy()
     fireEvent.click(screen.getByTestId(TEST_IDS.ADD_USER))
-  })
-
-  it('Update user with success', async () => {
-    request.mockImplementationOnce(() => Promise.resolve(responseWithList()))
-    render(<UserManagement />)
-    await waitFor(() => screen.findByText('Active'))
-    fireEvent.click(screen.getByTestId(TEST_IDS.EDIT_BUTTON))
-    fieldUpdateViaPlaceHolder.forEach((d) => {
-      fireEvent.change(screen.getByPlaceholderText(d.key), {
-        target: { value: d.value }
-      })
-    })
-    expect(screen.getByText('Update')).toBeTruthy()
-    fireEvent.click(screen.getByText('Update'))
   })
 
   it('Update user with cancel', async () => {

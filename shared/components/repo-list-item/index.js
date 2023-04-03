@@ -7,7 +7,7 @@ import RepoLink from './RepoLink'
 import Wrapper from './Wrapper'
 import ListItem from '../list-item'
 
-export function RepoListItem(props) {
+const RepoListItem = (props) => {
   const { item } = props
   let namePrefix = ''
 

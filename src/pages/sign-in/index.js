@@ -24,7 +24,7 @@ const SignIn = dynamic(() => import('@page-components/sign-in'), {
   ssr: false
 })
 
-function SignInPage() {
+const SignInPage = () => {
   return (
     <>
       <Head>
