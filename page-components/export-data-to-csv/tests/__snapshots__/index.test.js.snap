@@ -3,13 +3,13 @@
 exports[`<ExportDataToCsv /> Should render and match the snapshot 1`] = `
 <div>
   <div
-    class="sc-beySbM cegQxk"
+    class="sc-beqWaB kTuyhl"
   >
     <div
-      class="sc-guDLRT epbeTE"
+      class="sc-gueYoa hAnktJ"
     >
       <button
-        class="ant-btn css-dev-only-do-not-override-1me4733 ant-btn-primary"
+        class="ant-btn css-dev-only-do-not-override-1vtf12y ant-btn-primary"
         data-testid="ExportButton"
         disabled=""
         type="button"
@@ -20,10 +20,10 @@ exports[`<ExportDataToCsv /> Should render and match the snapshot 1`] = `
       </button>
     </div>
     <div
-      class="ant-table-wrapper css-dev-only-do-not-override-1me4733"
+      class="ant-table-wrapper css-dev-only-do-not-override-1vtf12y"
     >
       <div
-        class="ant-spin-nested-loading css-dev-only-do-not-override-1me4733"
+        class="ant-spin-nested-loading css-dev-only-do-not-override-1vtf12y"
       >
         <div
           class="ant-spin-container"
@@ -59,16 +59,15 @@ exports[`<ExportDataToCsv /> Should render and match the snapshot 1`] = `
                           class="ant-table-selection"
                         >
                           <label
-                            class="ant-checkbox-wrapper css-dev-only-do-not-override-1me4733"
+                            class="ant-checkbox-wrapper css-dev-only-do-not-override-1vtf12y"
                           >
                             <span
-                              class="ant-checkbox css-dev-only-do-not-override-1me4733"
+                              class="ant-checkbox css-dev-only-do-not-override-1vtf12y"
                             >
                               <input
                                 aria-label="Select all"
                                 class="ant-checkbox-input"
                                 type="checkbox"
-                                value=""
                               />
                               <span
                                 class="ant-checkbox-inner"
@@ -150,15 +149,14 @@ exports[`<ExportDataToCsv /> Should render and match the snapshot 1`] = `
                         class="ant-table-cell ant-table-selection-column"
                       >
                         <label
-                          class="ant-checkbox-wrapper css-dev-only-do-not-override-1me4733"
+                          class="ant-checkbox-wrapper css-dev-only-do-not-override-1vtf12y"
                         >
                           <span
-                            class="ant-checkbox css-dev-only-do-not-override-1me4733"
+                            class="ant-checkbox css-dev-only-do-not-override-1vtf12y"
                           >
                             <input
                               class="ant-checkbox-input"
                               type="checkbox"
-                              value=""
                             />
                             <span
                               class="ant-checkbox-inner"
@@ -190,15 +188,14 @@ exports[`<ExportDataToCsv /> Should render and match the snapshot 1`] = `
                         class="ant-table-cell ant-table-selection-column"
                       >
                         <label
-                          class="ant-checkbox-wrapper css-dev-only-do-not-override-1me4733"
+                          class="ant-checkbox-wrapper css-dev-only-do-not-override-1vtf12y"
                         >
                           <span
-                            class="ant-checkbox css-dev-only-do-not-override-1me4733"
+                            class="ant-checkbox css-dev-only-do-not-override-1vtf12y"
                           >
                             <input
                               class="ant-checkbox-input"
                               type="checkbox"
-                              value=""
                             />
                             <span
                               class="ant-checkbox-inner"
@@ -230,15 +227,14 @@ exports[`<ExportDataToCsv /> Should render and match the snapshot 1`] = `
                         class="ant-table-cell ant-table-selection-column"
                       >
                         <label
-                          class="ant-checkbox-wrapper css-dev-only-do-not-override-1me4733"
+                          class="ant-checkbox-wrapper css-dev-only-do-not-override-1vtf12y"
                         >
                           <span
-                            class="ant-checkbox css-dev-only-do-not-override-1me4733"
+                            class="ant-checkbox css-dev-only-do-not-override-1vtf12y"
                           >
                             <input
                               class="ant-checkbox-input"
                               type="checkbox"
-                              value=""
                             />
                             <span
                               class="ant-checkbox-inner"

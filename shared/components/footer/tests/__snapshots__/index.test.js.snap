@@ -2,7 +2,7 @@
 
 exports[`<Footer /> should render and match the snapshot 1`] = `
 <footer
-  class="sc-beySbM Fmhex"
+  class="sc-beqWaB igQRWg"
 >
   <section>
     footer.copyRightMessage

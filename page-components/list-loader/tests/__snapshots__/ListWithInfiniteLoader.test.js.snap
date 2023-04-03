@@ -2,17 +2,17 @@
 
 exports[`<ListWithInfiniteLoader /> should render and match the snapshot 1`] = `
 <div
-  class="sc-beySbM eAvRgr"
+  class="sc-beqWaB cokxZS"
 >
   <div
     class="demo-infinite-container"
   >
     <div>
       <div
-        class="ant-list ant-list-split css-dev-only-do-not-override-1me4733"
+        class="ant-list ant-list-split css-dev-only-do-not-override-1vtf12y"
       >
         <div
-          class="ant-spin-nested-loading css-dev-only-do-not-override-1me4733"
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1vtf12y"
         >
           <div
             class="ant-spin-container"
@@ -21,7 +21,7 @@ exports[`<ListWithInfiniteLoader /> should render and match the snapshot 1`] = `
               class="ant-list-empty-text"
             >
               <div
-                class="css-dev-only-do-not-override-1me4733 ant-empty ant-empty-normal"
+                class="css-dev-only-do-not-override-1vtf12y ant-empty ant-empty-normal"
               >
                 <div
                   class="ant-empty-image"
@@ -76,17 +76,17 @@ exports[`<ListWithInfiniteLoader /> should render and match the snapshot 1`] = `
 
 exports[`<ListWithInfiniteLoader /> should render and match the snapshot 2`] = `
 <div
-  class="sc-beySbM eAvRgr"
+  class="sc-beqWaB cokxZS"
 >
   <div
     class="demo-infinite-container"
   >
     <div>
       <div
-        class="ant-list ant-list-split css-dev-only-do-not-override-1me4733"
+        class="ant-list ant-list-split css-dev-only-do-not-override-1vtf12y"
       >
         <div
-          class="ant-spin-nested-loading css-dev-only-do-not-override-1me4733"
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1vtf12y"
         >
           <div
             class="ant-spin-container"
@@ -104,7 +104,7 @@ exports[`<ListWithInfiniteLoader /> should render and match the snapshot 2`] = `
                     class="ant-list-item-meta-avatar"
                   >
                     <span
-                      class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1me4733"
+                      class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1vtf12y"
                     >
                       <img
                         src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"

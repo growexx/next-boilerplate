@@ -4,21 +4,21 @@ exports[`NumeralConversion renders Numbers table 1`] = `
 <div>
   <div>
     <p
-      class="sc-beySbM PTglU"
+      class="sc-beqWaB dZuHYZ"
     >
       This demo uses numeral library for conversion of number
     </p>
     <div
-      class="sc-guDLRT ZXCeT"
+      class="sc-gueYoa fXbNOq"
     >
       <span
-        class="ant-input-group-wrapper ant-input-search ant-input-search-with-button css-dev-only-do-not-override-1me4733"
+        class="ant-input-group-wrapper ant-input-search ant-input-search-with-button css-dev-only-do-not-override-1vtf12y"
       >
         <span
-          class="ant-input-wrapper ant-input-group css-dev-only-do-not-override-1me4733"
+          class="ant-input-wrapper ant-input-group css-dev-only-do-not-override-1vtf12y"
         >
           <input
-            class="ant-input css-dev-only-do-not-override-1me4733"
+            class="ant-input css-dev-only-do-not-override-1vtf12y"
             placeholder="Enter number to convert"
             type="text"
             value="0"
@@ -27,7 +27,7 @@ exports[`NumeralConversion renders Numbers table 1`] = `
             class="ant-input-group-addon"
           >
             <button
-              class="ant-btn css-dev-only-do-not-override-1me4733 ant-btn-primary ant-input-search-button"
+              class="ant-btn css-dev-only-do-not-override-1vtf12y ant-btn-primary ant-input-search-button"
               type="button"
             >
               <span>
@@ -39,7 +39,7 @@ exports[`NumeralConversion renders Numbers table 1`] = `
       </span>
     </div>
     <div
-      class="sc-dmyDGi gYYqGl"
+      class="sc-dmqHEX jBkHlr"
     >
       <p>
         Create
@@ -48,10 +48,10 @@ exports[`NumeralConversion renders Numbers table 1`] = `
         Create an instance of a numeral. Numeral takes numbers or strings that it trys to convert into a number
       </p>
       <div
-        class="ant-table-wrapper css-dev-only-do-not-override-1me4733"
+        class="ant-table-wrapper css-dev-only-do-not-override-1vtf12y"
       >
         <div
-          class="ant-spin-nested-loading css-dev-only-do-not-override-1me4733"
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1vtf12y"
         >
           <div
             class="ant-spin-container"
@@ -147,7 +147,7 @@ exports[`NumeralConversion renders Numbers table 1`] = `
       </div>
     </div>
     <div
-      class="sc-hLQRIN bYpucv"
+      class="sc-hLseeU iWkebQ"
     >
       <p>
         Format
@@ -157,16 +157,16 @@ exports[`NumeralConversion renders Numbers table 1`] = `
       </p>
     </div>
     <div
-      class="sc-dmyDGi gYYqGl"
+      class="sc-dmqHEX jBkHlr"
     >
       <p>
         Numbers
       </p>
       <div
-        class="ant-table-wrapper css-dev-only-do-not-override-1me4733"
+        class="ant-table-wrapper css-dev-only-do-not-override-1vtf12y"
       >
         <div
-          class="ant-spin-nested-loading css-dev-only-do-not-override-1me4733"
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1vtf12y"
         >
           <div
             class="ant-spin-container"
@@ -646,16 +646,16 @@ exports[`NumeralConversion renders Numbers table 1`] = `
       </div>
     </div>
     <div
-      class="sc-dmyDGi gYYqGl"
+      class="sc-dmqHEX jBkHlr"
     >
       <p>
         Currency
       </p>
       <div
-        class="ant-table-wrapper css-dev-only-do-not-override-1me4733"
+        class="ant-table-wrapper css-dev-only-do-not-override-1vtf12y"
       >
         <div
-          class="ant-spin-nested-loading css-dev-only-do-not-override-1me4733"
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1vtf12y"
         >
           <div
             class="ant-spin-container"
@@ -874,16 +874,16 @@ exports[`NumeralConversion renders Numbers table 1`] = `
       </div>
     </div>
     <div
-      class="sc-dmyDGi gYYqGl"
+      class="sc-dmqHEX jBkHlr"
     >
       <p>
         Bytes
       </p>
       <div
-        class="ant-table-wrapper css-dev-only-do-not-override-1me4733"
+        class="ant-table-wrapper css-dev-only-do-not-override-1vtf12y"
       >
         <div
-          class="ant-spin-nested-loading css-dev-only-do-not-override-1me4733"
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1vtf12y"
         >
           <div
             class="ant-spin-container"
@@ -1122,16 +1122,16 @@ exports[`NumeralConversion renders Numbers table 1`] = `
       </div>
     </div>
     <div
-      class="sc-dmyDGi gYYqGl"
+      class="sc-dmqHEX jBkHlr"
     >
       <p>
         Percentages
       </p>
       <div
-        class="ant-table-wrapper css-dev-only-do-not-override-1me4733"
+        class="ant-table-wrapper css-dev-only-do-not-override-1vtf12y"
       >
         <div
-          class="ant-spin-nested-loading css-dev-only-do-not-override-1me4733"
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1vtf12y"
         >
           <div
             class="ant-spin-container"
@@ -1310,16 +1310,16 @@ exports[`NumeralConversion renders Numbers table 1`] = `
       </div>
     </div>
     <div
-      class="sc-dmyDGi gYYqGl"
+      class="sc-dmqHEX jBkHlr"
     >
       <p>
         Time
       </p>
       <div
-        class="ant-table-wrapper css-dev-only-do-not-override-1me4733"
+        class="ant-table-wrapper css-dev-only-do-not-override-1vtf12y"
       >
         <div
-          class="ant-spin-nested-loading css-dev-only-do-not-override-1me4733"
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1vtf12y"
         >
           <div
             class="ant-spin-container"
@@ -1478,16 +1478,16 @@ exports[`NumeralConversion renders Numbers table 1`] = `
       </div>
     </div>
     <div
-      class="sc-dmyDGi gYYqGl"
+      class="sc-dmqHEX jBkHlr"
     >
       <p>
         Exponential
       </p>
       <div
-        class="ant-table-wrapper css-dev-only-do-not-override-1me4733"
+        class="ant-table-wrapper css-dev-only-do-not-override-1vtf12y"
       >
         <div
-          class="ant-spin-nested-loading css-dev-only-do-not-override-1me4733"
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1vtf12y"
         >
           <div
             class="ant-spin-container"

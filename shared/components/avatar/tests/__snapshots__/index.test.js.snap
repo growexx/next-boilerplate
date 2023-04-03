@@ -2,17 +2,17 @@
 
 exports[`<Avatar /> should render a div 1`] = `
 <div
-  class="sc-beySbM cGrFEX"
+  class="sc-beqWaB hfDtoW"
 >
   <div
-    class="ant-space-compact css-dev-only-do-not-override-1me4733 ant-space-compact-block ant-dropdown-button css-dev-only-do-not-override-1me4733"
+    class="ant-space-compact css-dev-only-do-not-override-1vtf12y ant-space-compact-block ant-dropdown-button css-dev-only-do-not-override-1vtf12y"
   >
     <button
-      class="ant-btn css-dev-only-do-not-override-1me4733 ant-btn-default ant-btn-compact-item ant-btn-compact-first-item"
+      class="ant-btn css-dev-only-do-not-override-1vtf12y ant-btn-default ant-btn-compact-item ant-btn-compact-first-item"
       type="button"
     />
     <button
-      class="ant-btn css-dev-only-do-not-override-1me4733 ant-btn-default ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
+      class="ant-btn css-dev-only-do-not-override-1vtf12y ant-btn-default ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
       type="button"
     >
       <span
