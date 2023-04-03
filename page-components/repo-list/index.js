@@ -62,11 +62,11 @@ const RepoList = () => {
   const RepoLoader = () => (
     <>
       {new Array(5).fill(0).map((_, index) => (
-        <>
-          <Skeleton.Input active block size="small" key={index} />
+        <div key={index}>
+          <Skeleton.Input active block size="small" />
           <br />
           <br />
-        </>
+        </div>
       ))}
     </>
   )
