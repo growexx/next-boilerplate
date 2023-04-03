@@ -21,6 +21,7 @@ export const AvatarWrapper = styled.div`
   cursor: pointer;
   display: flex;
   align-items: center;
+  gap: 15px;
   .anticon-shopping-cart {
     font-size: 18px;
   }

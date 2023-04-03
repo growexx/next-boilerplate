@@ -5,8 +5,10 @@ import { signOut } from 'next-auth/react'
 import { Tooltip } from 'antd'
 
 import Avatar from '../avatar'
+import Internationalization from '../Internationalization'
 import { AvatarWrapper, StyledAppHeader, StyledAppHeaderColored } from './StyledAppHeader'
 import { MenuItems } from './constants'
+import { LanguageItems } from '../Internationalization/constants'
 
 const Header = (props) =>
   props.menuBackground ? (
@@ -15,6 +17,7 @@ const Header = (props) =>
         {/* TODO: */}
         {/* <Cart /> */}
         {/* <Notification /> */}
+        <Internationalization menu={LanguageItems} />
         <Avatar menu={MenuItems} />
       </AvatarWrapper>
     </StyledAppHeaderColored>
@@ -24,6 +27,7 @@ const Header = (props) =>
         {/* TODO: */}
         {/* <Cart /> */}
         {/* <Notification /> */}
+        <Internationalization menu={LanguageItems} />
         <Avatar menu={MenuItems} />
       </AvatarWrapper>
       <Tooltip title="Log Out">
