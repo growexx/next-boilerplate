@@ -10,9 +10,8 @@
 | Quick Scaffolding       | Create components, containers, routes, selectors and sagas - and their tests - right from the CLI with npm run generate.                                                                   |
 | Webpack                 | Webpack support added out of box with basic    loaders. |                                          
 | Babel                   | Babel loader support added out of box.          |
-| Redux-Saga              | Built in support for redux, react-redux and saga|
-| i18n international support      | Supports multiple languages with react-intl.    |
-| SEO support             | SEO support with react-helmet                   |
+| i18n international support   | Supports multiple languages with next-translate.|
+| SEO support             | Built in SEO support in Nextjs                  |
 | Webpack Chunk Analyser  | npm run analyze                                 |
 | Ngrok support           | npm run start:tunnel                            |
 | Commitzen               | standard way for commits                        |
@@ -20,13 +19,15 @@
 | Font-Awesome            | Inbuilt support for font-awesome                |
 | Role Management         | Role management implemented.                    |
 | App level loader        | Global loader based on app states.              |
-| Analytics Tool          | Google analytics tool integrated.               |
 | Hooks Support           | Hooks support provided for the boilerplate.     |
-| Graphql Support         | Graphql support provided for the boilerplate.   |
-| React-Final-Form        | React-Final-Form support added.                 |
+| Reat Query Support      | Reat Query  provided for the boilerplate.       |
 | Redux-Form              | Redux-Form support added.                       |
 | Social login            | Boilerplate supports social login using firebase|
-| Two Factor Authentication          | Two Factor authentication with otp.             |
+| next/image              | Lazy loaded image built in support provided.    |
+| next/head               | Built-in component for appending elements to the head of the page|
+| SSR Support             | Static side Rendering Support provided.         |
+| SSG Support             | Static side Generation Support provided.        |
+| ISR Support             | Incremental static Regenration Support provided.|
 |                         |                                                 |
 | **Design**              |                                                 |
 |                         |                                                 |
@@ -47,7 +48,6 @@
 | Footer component        | Basic footer implemented.                       |
 | File Upload             | File Upload component.                          |
 | Image Upload            | Image editor before upload.                     |
-| OTPComponent            | Component to capture OTP.                       |
 | InlineEdit              | Inline edit input                               |
 | Rich Text editor        | wysiwyg editor                                  |
 | 401, 403, Not found     | Misc cases                                      |
@@ -68,7 +68,6 @@
 | Google Analytics        | Analytics helper util.                          |
 | UserExists              | tells if user is logged in or logged out.       |
 | FontFaces               | Add font faces with this function.              |
-| Firebase                | Setup and util functions for firebase           |
 |                         |                                                 |
 | **Examples**            |                                                 |
 |                         |                                                 |
@@ -84,12 +83,9 @@
 | Apollo Hooks demo       | Basic demo for apollo hooks.                    |
 | React-Final-Form        | Basic demo  for React-Final-Form.               |
 | Social Login demo       | Basic demo  for google and facebook login.      |
-| Two Factor              | Basic demo  for OtpComponent and two factor     |
 | User Management         | Basic demo User list with Pagination, Sort, Search, Filter, Add/Edit/Delete User     |
 | Admin Charts            | Charts Pages with statistics and Filters        |
-| Real-Time-Chat          | Real time chat with firebase                    |
 | Multi Tab Communication | Demo to communicate between tabs                |
-| Firebase Cloud Messaging| Basic example for push notifications using fcm  |
 | Notifications with socket.io | Basic example for real time notifications using socket.io  |
 |                         |                                                 |
 | **Test-Cases**          |                                                 |

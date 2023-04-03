@@ -13,9 +13,9 @@ export const authOptions = {
         // TODO: axios call to backend
         const user = {
           id: '1234',
-          name: 'Brijesh Thakkar',
-          email: 'b@gmail.com',
-          password: '123',
+          name: 'Admin',
+          email: 'admin@gmail.com',
+          password: 'admin@123',
           role: 'admin'
         }
         if (email !== user.email || password !== user.password) {

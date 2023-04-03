@@ -19,7 +19,6 @@ export const ROUTES = {
   LOGIN: '/sign-in',
   REGISTER: '/register',
   PROFILE: '/profile',
-  LOGOUT: '/logout',
   LOADER: '/loader',
   EXPORT_DATA: '/export-data',
   USERS: '/users',
