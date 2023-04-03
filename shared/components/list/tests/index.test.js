@@ -1,5 +1,3 @@
-/* eslint-disable testing-library/no-container */
-/* eslint-disable testing-library/no-node-access */
 import { render, screen } from '@testing-library/react'
 
 import List from '../index'

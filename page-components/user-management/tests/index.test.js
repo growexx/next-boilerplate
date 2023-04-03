@@ -1,4 +1,3 @@
-/* eslint-disable testing-library/no-node-access */
 import { fireEvent, render, screen, waitFor } from '@testing-library/react'
 
 import { addNewUserFailure, addNewUserSuccess, failedResponse, responseWithList, responseWithZeroList, USER_DATA } from '../stub'

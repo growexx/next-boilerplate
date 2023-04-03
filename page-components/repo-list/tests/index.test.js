@@ -1,5 +1,3 @@
-/* eslint-disable testing-library/no-container */
-/* eslint-disable testing-library/no-node-access */
 import React from 'react'
 import { render, screen, waitFor, fireEvent, act } from '@testing-library/react'
 import { useQuery } from '@tanstack/react-query'
