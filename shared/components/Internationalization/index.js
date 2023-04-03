@@ -1,30 +1,26 @@
 import React from 'react'
 import { Dropdown, Menu } from 'antd'
-import { UserOutlined } from '@ant-design/icons'
+import { GlobalOutlined } from '@ant-design/icons'
 import PropTypes from 'prop-types'
 import Link from 'next/link'
-
-import { AvatarWrapper } from './StyledAvatar'
 
 const getMenu = (MenuItems) => (
   <Menu>
     {MenuItems.map((menuItem, index) => (
-      <Menu.Item key={index} icon={menuItem.icon}>
+      <Menu.Item key={index}>
         <Link href={menuItem.to}>{menuItem.tabName}</Link>
       </Menu.Item>
     ))}
   </Menu>
 )
-const Avatar = (props) => (
-  <AvatarWrapper>
-    <Dropdown overlay={getMenu(props.menu)}>
-      <UserOutlined />
-    </Dropdown>
-  </AvatarWrapper>
+const Internationalization = (props) => (
+  <Dropdown overlay={getMenu(props.menu)}>
+    <GlobalOutlined />
+  </Dropdown>
 )
 
-export default Avatar
+export default Internationalization
 
-Avatar.propTypes = {
+Internationalization.propTypes = {
   menu: PropTypes.array
 }

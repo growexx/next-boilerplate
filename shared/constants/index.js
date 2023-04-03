@@ -33,7 +33,10 @@ export const ROUTES = {
   FORGOT_PASSWORD: '/forgot-password',
   MULTI_TAB_SUPPORT: '/multi-tab-support',
   PRODUCTS: '/products',
-  SSR_DEMO: '/ssr-demo'
+  SSR_DEMO: '/ssr-demo',
+  EN: '/',
+  FR: '/fr',
+  INTERNATIONALIZATION_DEMO: '/internationalization-demo'
 }
 
 // API-ROUTES
