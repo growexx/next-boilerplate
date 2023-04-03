@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react'
 
-import Sidebar from '../index'
+import SideBar from '../index'
 
 const props = {
   user: {
@@ -13,7 +13,7 @@ describe('<SideBar />', () => {
   it('should render and match the snapshot', () => {
     const {
       container: { firstChild }
-    } = render(<Sidebar {...props} />)
+    } = render(<SideBar {...props} />)
     expect(firstChild).toMatchSnapshot()
   })
 })
