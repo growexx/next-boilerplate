@@ -19,7 +19,7 @@ ISRDemoPage.propTypes = {
 export default ISRDemoPage
 
 export const getStaticProps = async () => {
-  const data = await await (await fetch(`${API_ENDPOINTS.STUDENT_ISR_API}`)).json()
+  const data = await (await fetch(`${API_ENDPOINTS.STUDENT_ISR_API}`)).json()
   return {
     props: {
       data
