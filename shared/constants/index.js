@@ -34,6 +34,7 @@ export const ROUTES = {
   MULTI_TAB_SUPPORT: '/multi-tab-support',
   PRODUCTS: '/products',
   SSR_DEMO: '/ssr-demo',
+  ISR_DEMO: '/isr-demo',
   SSG_DEMO: '/ssg-demo/user',
   EN: '/',
   FR: '/fr',
@@ -51,6 +52,7 @@ export const API_ENDPOINTS = {
   IMAGE_UPLOAD: 'https://www.mocky.io/v2/5cc8019d300000980a055e76',
   FORGOT_PASSWORD: `${API_URL}/${AUTH}/forgetpassword`,
   USERS: `${API_URL}/users`,
+  STUDENT_ISR_API: 'https://demo-a7ib.onrender.com/students',
   DUMMY_USER: 'https://dummyjson.com/users'
 }
 

@@ -12,6 +12,7 @@ import {
   ShoppingOutlined,
   SearchOutlined,
   CloudServerOutlined,
+  FieldTimeOutlined,
   FileTextOutlined,
   GlobalOutlined
 } from '@ant-design/icons'
@@ -79,6 +80,11 @@ export const MenuItems = [
     to: ROUTES.SSR_DEMO,
     tabName: 'SSR Demo',
     icon: <CloudServerOutlined />
+  },
+  {
+    to: ROUTES.ISR_DEMO,
+    tabName: 'ISR Demo',
+    icon: <FieldTimeOutlined />
   },
   {
     to: ROUTES.SSG_DEMO,
