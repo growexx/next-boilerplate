@@ -1,7 +1,9 @@
 // import { TOKEN_KEY, USER_DATA_KEY } from './constants.js'
 // import StorageService from './StorageService'
 
-export function userExists() {
+import StorageService from './StorageService'
+
+export const userExists = () => {
   //   if (StorageService.exists(TOKEN_KEY)) {
   //     return true
   //   }
@@ -13,7 +15,7 @@ export function userExists() {
  * Get User Data
  * @returns
  */
-export function getUserData() {
+export const getUserData = () => {
   // if (StorageService.exists(TOKEN_KEY)) {
   // return StorageService.get(USER_DATA_KEY)
   // }

@@ -7,8 +7,8 @@ import ListWithInfiniteLoader from './ListWithInfiniteLoader'
 import { TABS } from './constants'
 import { StyledList } from './StyledList'
 
-function ListLoader() {
-  function callback(key) {
+const ListLoader = () => {
+  const callback = (key) => {
     console.log(key)
   }
 

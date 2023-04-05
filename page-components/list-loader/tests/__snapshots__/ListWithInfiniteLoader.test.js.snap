@@ -1,18 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<ListWithInfiniteLoader /> should render and match the snapshot 1`] = `
+.c0 .demo-infinite-container {
+  overflow: auto;
+  border-radius: 4px;
+}
+
+.c0 .demo-loading-container {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+
 <div
-  class="sc-beySbM eAvRgr"
+  class="c0"
 >
   <div
     class="demo-infinite-container"
   >
     <div>
       <div
-        class="ant-list ant-list-split css-dev-only-do-not-override-10ed4xt"
+        class="ant-list ant-list-split css-dev-only-do-not-override-1vtf12y"
       >
         <div
-          class="ant-spin-nested-loading css-dev-only-do-not-override-10ed4xt"
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1vtf12y"
         >
           <div
             class="ant-spin-container"
@@ -21,7 +33,7 @@ exports[`<ListWithInfiniteLoader /> should render and match the snapshot 1`] = `
               class="ant-list-empty-text"
             >
               <div
-                class="css-dev-only-do-not-override-10ed4xt ant-empty ant-empty-normal"
+                class="css-dev-only-do-not-override-1vtf12y ant-empty ant-empty-normal"
               >
                 <div
                   class="ant-empty-image"
@@ -75,18 +87,30 @@ exports[`<ListWithInfiniteLoader /> should render and match the snapshot 1`] = `
 `;
 
 exports[`<ListWithInfiniteLoader /> should render and match the snapshot 2`] = `
+.c0 .demo-infinite-container {
+  overflow: auto;
+  border-radius: 4px;
+}
+
+.c0 .demo-loading-container {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+
 <div
-  class="sc-beySbM eAvRgr"
+  class="c0"
 >
   <div
     class="demo-infinite-container"
   >
     <div>
       <div
-        class="ant-list ant-list-split css-dev-only-do-not-override-10ed4xt"
+        class="ant-list ant-list-split css-dev-only-do-not-override-1vtf12y"
       >
         <div
-          class="ant-spin-nested-loading css-dev-only-do-not-override-10ed4xt"
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1vtf12y"
         >
           <div
             class="ant-spin-container"
@@ -104,7 +128,7 @@ exports[`<ListWithInfiniteLoader /> should render and match the snapshot 2`] = `
                     class="ant-list-item-meta-avatar"
                   >
                     <span
-                      class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-10ed4xt"
+                      class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1vtf12y"
                     >
                       <img
                         src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"

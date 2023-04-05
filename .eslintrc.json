@@ -3,7 +3,7 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["plugin:react/recommended", "standard", "plugin:@next/next/recommended"],
+  "extends": ["plugin:react/recommended", "standard", "plugin:@next/next/recommended", "plugin:testing-library/react"],
   "overrides": [
     {
       "files": ["**/*.test.js", "**/*.setup.js"],
@@ -12,7 +12,9 @@
         "jest": true
       },
       "rules": {
-        "no-undef": "off"
+        "no-undef": "off",
+        "testing-library/no-node-access": "off",
+        "testing-library/no-container": "off"
       }
     }
   ],

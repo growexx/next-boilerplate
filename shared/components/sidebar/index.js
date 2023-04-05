@@ -3,7 +3,7 @@ import { Layout, Menu } from 'antd'
 import PropTypes from 'prop-types'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useRouter, withRouter } from 'next/router'
+import { useRouter } from 'next/router'
 
 import { ROUTES, showLogoInSideBar } from '@shared/constants'
 import GrowExxTriangleLogo from '@assets/images/Growexx-Triangle-White.png'
@@ -34,7 +34,7 @@ const SideBar = ({ collapsed, layoutVariant }) => {
   )
 }
 
-export default withRouter(SideBar)
+export default SideBar
 
 SideBar.propTypes = {
   collapsed: PropTypes.bool,

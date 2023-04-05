@@ -1,5 +1,3 @@
-/* eslint-disable no-plusplus */
-/* eslint-disable indent */
 import base from 'base-64'
 import { TOKEN_KEY, USER_DATA_KEY } from './constants'
 

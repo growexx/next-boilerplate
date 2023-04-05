@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import Ul from './Ul'
 import Wrapper from './Wrapper'
 
-function List({ component, items }) {
+const List = ({ component, items }) => {
   const ComponentToRender = component
   let content = <div />
 

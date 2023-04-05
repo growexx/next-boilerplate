@@ -3,7 +3,7 @@ import useTranslation from 'next-translate/useTranslation'
 
 import FooterWrapper from './FooterWrapper'
 
-function Footer() {
+const Footer = () => {
   const { t } = useTranslation('common')
 
   return (
