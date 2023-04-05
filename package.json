@@ -12,7 +12,8 @@
     "test-ci": "jest --ci",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "test:watch": "jest --watchAll"
+    "test:watch": "jest --watchAll",
+    "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
     "@ant-design/pro-components": "^2.3.58",
@@ -45,11 +46,13 @@
     "terser": "^5.16.4"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^13.2.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
     "babel-jest": "^29.4.3",
     "babel-plugin-styled-components": "^2.0.7",
+    "cross-env": "^7.0.3",
     "eslint": "^8.37.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.27.5",
