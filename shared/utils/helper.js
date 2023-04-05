@@ -3,7 +3,7 @@
 
 import StorageService from './StorageService'
 
-export function userExists() {
+export const userExists = () => {
   //   if (StorageService.exists(TOKEN_KEY)) {
   //     return true
   //   }
@@ -15,7 +15,7 @@ export function userExists() {
  * Get User Data
  * @returns
  */
-export function getUserData() {
+export const getUserData = () => {
   // if (StorageService.exists(TOKEN_KEY)) {
   // return StorageService.get(USER_DATA_KEY)
   // }
@@ -26,11 +26,11 @@ export function getUserData() {
 /**
  * to logout user from system
  */
-export function logout() {
+export const logout = () => {
   StorageService.clear()
 }
 
-export function manageSession() {
+export const manageSession = () => {
   if (!localStorage.userData && !localStorage.loggedOut) {
     localStorage.setItem('loggedOut', 1)
     window.location.reload()

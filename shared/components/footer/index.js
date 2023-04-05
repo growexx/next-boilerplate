@@ -4,7 +4,7 @@ import useTranslation from 'next-translate/useTranslation'
 // import LocaleToggle from 'containers/LocaleToggle'
 import FooterWrapper from './FooterWrapper'
 
-function Footer() {
+const Footer = () => {
   const { t } = useTranslation('common')
 
   return (

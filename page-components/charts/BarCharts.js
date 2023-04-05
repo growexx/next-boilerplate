@@ -14,7 +14,7 @@ const BarCharts = ({ period, title }) => {
     getStatistics()
   }, [period])
 
-  const getStatistics = ({ period: newPeriod } = {}) => {
+  const getStatistics = () => {
     setIsLoading(true)
 
     getAPIMock().then((response) => {

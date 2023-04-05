@@ -70,7 +70,6 @@ const UserManagement = () => {
     search: newSearch = search,
     status: newStatus = status
   }) => {
-    console.count()
     const sortTypeParam = newSortType || sortType || 'asc'
     const sortKeyParam = newSortKey || sortKey || 'id'
     const searchParam = getLatestValue(newSearch, search) || ''
@@ -461,6 +460,7 @@ const UserManagement = () => {
                 <SearchWrapper
                   allowClear
                   placeholder="Search User"
+                  data-testid={TEST_IDS.SEARCH_USER}
                   isListLoading
                   value={search}
                   onChange={onSearchUser}

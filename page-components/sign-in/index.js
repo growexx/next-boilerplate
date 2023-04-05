@@ -7,6 +7,7 @@ import { Button, Form, List } from 'antd'
 
 import { Input, InputPassword } from '@shared/utils/Fields'
 import { StyledSignIn } from './StyledSignIn'
+import { TEST_IDS } from './stub'
 
 const SignIn = () => {
   const { control, handleSubmit, formState } = useForm()
@@ -45,7 +46,7 @@ const SignIn = () => {
 
   return (
     <StyledSignIn>
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <Form onSubmit={handleSubmit(onSubmit)}>
         <Form.Item {...formItemLayout} label="Email *" {...formItemWithErrorProps('email')}>
           <Input
             control={control}
@@ -64,7 +65,7 @@ const SignIn = () => {
           />
         </Form.Item>
 
-        <Form.Item {...formItemLayout} label="Password  *" {...formItemWithErrorProps('password')}>
+        <Form.Item {...formItemLayout} label="Password *" {...formItemWithErrorProps('password')}>
           <InputPassword
             control={control}
             name="password"
@@ -81,10 +82,11 @@ const SignIn = () => {
         <Form.Item>
           <Button htmlType="submit">Submit</Button>
         </Form.Item>
-      </form>
+      </Form>
 
       <List>
         <List.Item
+          data-testid={TEST_IDS.GITHUB_SIGN_IN_BUTTON}
           onClick={() =>
             signIn('github', {
               callbackUrl: '/'
@@ -94,6 +96,7 @@ const SignIn = () => {
           <GoMarkGithub />
         </List.Item>
         <List.Item
+          data-testid={TEST_IDS.GOOGLE_SIGN_IN_BUTTON}
           onClick={() =>
             signIn('google', {
               callbackUrl: '/'

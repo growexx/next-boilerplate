@@ -1,11 +1,34 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<ListLoader /> should render and match the snapshot 1`] = `
+.c1 .demo-infinite-container {
+  overflow: auto;
+  border-radius: 4px;
+}
+
+.c1 .demo-loading-container {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.c0 .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: @primary-color;
+}
+
+.c0 .ant-list-item-meta {
+  -webkit-align-items: center !important;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
 <div
-  class="sc-guDLRT doUcLN"
+  class="c0"
 >
   <div
-    class="ant-tabs ant-tabs-top css-dev-only-do-not-override-10ed4xt"
+    class="ant-tabs ant-tabs-top css-dev-only-do-not-override-1vtf12y"
     data-testid="ListTab"
   >
     <div
@@ -120,17 +143,17 @@ exports[`<ListLoader /> should render and match the snapshot 1`] = `
           tabindex="0"
         >
           <div
-            class="sc-beySbM eAvRgr"
+            class="c1"
           >
             <div
               class="demo-infinite-container"
             >
               <div>
                 <div
-                  class="ant-list ant-list-split css-dev-only-do-not-override-10ed4xt"
+                  class="ant-list ant-list-split css-dev-only-do-not-override-1vtf12y"
                 >
                   <div
-                    class="ant-spin-nested-loading css-dev-only-do-not-override-10ed4xt"
+                    class="ant-spin-nested-loading css-dev-only-do-not-override-1vtf12y"
                   >
                     <div
                       class="ant-spin-container"
@@ -139,7 +162,7 @@ exports[`<ListLoader /> should render and match the snapshot 1`] = `
                         class="ant-list-empty-text"
                       >
                         <div
-                          class="css-dev-only-do-not-override-10ed4xt ant-empty ant-empty-normal"
+                          class="css-dev-only-do-not-override-1vtf12y ant-empty ant-empty-normal"
                         >
                           <div
                             class="ant-empty-image"

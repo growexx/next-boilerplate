@@ -8,7 +8,6 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import { SessionProvider } from 'next-auth/react'
 
 import GlobalStyle from 'styles/global-styles'
-import '../styles/globals.css'
 import useApp from '@shared/hooks/use-app'
 
 const MainLayout = dynamic(() => import('@shared/components/layouts/main-layout'), {
