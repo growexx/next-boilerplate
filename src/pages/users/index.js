@@ -1,7 +1,11 @@
-import Head from 'next/head'
 import React from 'react'
+import dynamic from 'next/dynamic'
+import Head from 'next/head'
+import { Skeleton } from 'antd'
 
-import UserManagement from '@page-components/user-management'
+const UserManagement = dynamic(() => import('@page-components/user-management'), {
+  loading: () => <Skeleton paragraph={{ rows: 20 }} />
+})
 
 const UsersPage = () => {
   return (

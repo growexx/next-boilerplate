@@ -3,6 +3,7 @@ import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import parse from 'html-react-parser'
 import { Skeleton } from 'antd'
+import useTranslation from 'next-translate/useTranslation'
 
 import features from '@docs/general/features.md'
 
@@ -10,7 +11,8 @@ const FeaturePage = dynamic(() => import('@page-components/feature-page'), {
   loading: () => <Skeleton active paragraph={{ rows: 10 }} />
 })
 
-export default function Home() {
+const Home = () => {
+  const { t } = useTranslation()
   return (
     <>
       <Head>
@@ -19,8 +21,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Welcome to Next.js!</h1>
+      <h1>{t('common:Welcome')}</h1>
       <FeaturePage>{parse(`${features}`)}</FeaturePage>
     </>
   )
 }
+
+export default Home

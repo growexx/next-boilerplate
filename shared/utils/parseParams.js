@@ -5,6 +5,5 @@
  */
 export const parseParams = (params = '') => {
   const urlParams = new URLSearchParams(params)
-  const value = Object.fromEntries(urlParams.entries())
-  return value
+  return Object.fromEntries(urlParams.entries())
 }

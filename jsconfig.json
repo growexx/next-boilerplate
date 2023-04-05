@@ -12,8 +12,7 @@
       "@utils": ["shared/utils.js"],
       "@pages/*": ["src/pages/*"],
       "@public/*": ["public/*"],
-      "@page-components/*": ["page-components/*"],
-      "@styles/*": ["styles/*"]
+      "@page-components/*": ["page-components/*"]
     },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,

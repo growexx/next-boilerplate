@@ -3,11 +3,19 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["plugin:react/recommended", "standard", "plugin:@next/next/recommended"],
+  "extends": ["plugin:react/recommended", "standard", "plugin:@next/next/recommended", "plugin:testing-library/react"],
   "overrides": [
     {
-      "files": ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[tj]s?(x)"],
-      "extends": ["plugin:testing-library/react"]
+      "files": ["**/*.test.js", "**/*.setup.js"],
+      "extends": ["plugin:testing-library/react"],
+      "env": {
+        "jest": true
+      },
+      "rules": {
+        "no-undef": "off",
+        "testing-library/no-node-access": "off",
+        "testing-library/no-container": "off"
+      }
     }
   ],
   "parserOptions": {
@@ -18,7 +26,6 @@
   "rules": {
     "prettier/prettier": ["error"],
     "react/react-in-jsx-scope": "off",
-    "no-undef": "off",
     "import/no-unresolved": "off",
     "import/extensions": "off",
     "space-before-function-paren": [

@@ -1,15 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<ExportDataToCsv /> Should render and match the snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0 button {
+  margin-bottom: 12px;
+}
+
+.c1 {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
 <div>
   <div
-    class="sc-beySbM cegQxk"
+    class="c0"
   >
     <div
-      class="sc-guDLRT epbeTE"
+      class="c1"
     >
       <button
-        class="ant-btn css-dev-only-do-not-override-10ed4xt ant-btn-primary"
+        class="ant-btn css-dev-only-do-not-override-1vtf12y ant-btn-primary"
         data-testid="ExportButton"
         disabled=""
         type="button"
@@ -20,10 +40,10 @@ exports[`<ExportDataToCsv /> Should render and match the snapshot 1`] = `
       </button>
     </div>
     <div
-      class="ant-table-wrapper css-dev-only-do-not-override-10ed4xt"
+      class="ant-table-wrapper css-dev-only-do-not-override-1vtf12y"
     >
       <div
-        class="ant-spin-nested-loading css-dev-only-do-not-override-10ed4xt"
+        class="ant-spin-nested-loading css-dev-only-do-not-override-1vtf12y"
       >
         <div
           class="ant-spin-container"
@@ -59,16 +79,15 @@ exports[`<ExportDataToCsv /> Should render and match the snapshot 1`] = `
                           class="ant-table-selection"
                         >
                           <label
-                            class="ant-checkbox-wrapper css-dev-only-do-not-override-10ed4xt"
+                            class="ant-checkbox-wrapper css-dev-only-do-not-override-1vtf12y"
                           >
                             <span
-                              class="ant-checkbox css-dev-only-do-not-override-10ed4xt"
+                              class="ant-checkbox css-dev-only-do-not-override-1vtf12y"
                             >
                               <input
                                 aria-label="Select all"
                                 class="ant-checkbox-input"
                                 type="checkbox"
-                                value=""
                               />
                               <span
                                 class="ant-checkbox-inner"
@@ -150,15 +169,14 @@ exports[`<ExportDataToCsv /> Should render and match the snapshot 1`] = `
                         class="ant-table-cell ant-table-selection-column"
                       >
                         <label
-                          class="ant-checkbox-wrapper css-dev-only-do-not-override-10ed4xt"
+                          class="ant-checkbox-wrapper css-dev-only-do-not-override-1vtf12y"
                         >
                           <span
-                            class="ant-checkbox css-dev-only-do-not-override-10ed4xt"
+                            class="ant-checkbox css-dev-only-do-not-override-1vtf12y"
                           >
                             <input
                               class="ant-checkbox-input"
                               type="checkbox"
-                              value=""
                             />
                             <span
                               class="ant-checkbox-inner"
@@ -190,15 +208,14 @@ exports[`<ExportDataToCsv /> Should render and match the snapshot 1`] = `
                         class="ant-table-cell ant-table-selection-column"
                       >
                         <label
-                          class="ant-checkbox-wrapper css-dev-only-do-not-override-10ed4xt"
+                          class="ant-checkbox-wrapper css-dev-only-do-not-override-1vtf12y"
                         >
                           <span
-                            class="ant-checkbox css-dev-only-do-not-override-10ed4xt"
+                            class="ant-checkbox css-dev-only-do-not-override-1vtf12y"
                           >
                             <input
                               class="ant-checkbox-input"
                               type="checkbox"
-                              value=""
                             />
                             <span
                               class="ant-checkbox-inner"
@@ -230,15 +247,14 @@ exports[`<ExportDataToCsv /> Should render and match the snapshot 1`] = `
                         class="ant-table-cell ant-table-selection-column"
                       >
                         <label
-                          class="ant-checkbox-wrapper css-dev-only-do-not-override-10ed4xt"
+                          class="ant-checkbox-wrapper css-dev-only-do-not-override-1vtf12y"
                         >
                           <span
-                            class="ant-checkbox css-dev-only-do-not-override-10ed4xt"
+                            class="ant-checkbox css-dev-only-do-not-override-1vtf12y"
                           >
                             <input
                               class="ant-checkbox-input"
                               type="checkbox"
-                              value=""
                             />
                             <span
                               class="ant-checkbox-inner"

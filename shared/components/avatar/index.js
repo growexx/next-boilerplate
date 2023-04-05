@@ -17,7 +17,9 @@ const getMenu = (MenuItems) => (
 )
 const Avatar = (props) => (
   <AvatarWrapper>
-    <Dropdown.Button overlay={getMenu(props.menu)} placement="bottom" icon={<UserOutlined />} />
+    <Dropdown overlay={getMenu(props.menu)}>
+      <UserOutlined />
+    </Dropdown>
   </AvatarWrapper>
 )
 
