@@ -37,7 +37,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
 ## Production Time keep this changes
 
 - When deploying your site set the NEXTAUTH_URL environment variable to the canonical URL of the website. (file - .env.local)
