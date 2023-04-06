@@ -8,20 +8,19 @@ import Avatar from '../avatar'
 import Internationalization from '../Internationalization'
 import { AvatarWrapper, StyledAppHeader, StyledAppHeaderColored } from './StyledAppHeader'
 import { MenuItems } from './constants'
-import { LanguageItems } from '../Internationalization/constants'
 
 const Header = (props) =>
   props.menuBackground ? (
     <StyledAppHeaderColored {...props}>
       <AvatarWrapper>
-        <Internationalization menu={LanguageItems} />
+        <Internationalization />
         <Avatar menu={MenuItems} />
       </AvatarWrapper>
     </StyledAppHeaderColored>
   ) : (
     <StyledAppHeader {...props}>
       <AvatarWrapper>
-        <Internationalization menu={LanguageItems} />
+        <Internationalization />
         <Avatar menu={MenuItems} />
       </AvatarWrapper>
       <Tooltip title="Log Out">
