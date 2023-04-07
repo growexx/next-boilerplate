@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AdminPage /> should match the snapshot 1`] = `
+<div>
+  This is Admin Page, Only Role with admin role is allowed to access this page
+</div>
+`;

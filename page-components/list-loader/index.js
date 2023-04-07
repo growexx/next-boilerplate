@@ -8,10 +8,6 @@ import { TABS } from './constants'
 import { StyledList } from './StyledList'
 
 const ListLoader = () => {
-  const callback = (key) => {
-    console.log(key)
-  }
-
   const tabItems = [
     {
       label: TABS.TITLE.TAB_ONE,
@@ -32,7 +28,7 @@ const ListLoader = () => {
 
   return (
     <StyledList>
-      <Tabs items={tabItems} defaultActiveKey="1" onChange={callback} data-testid="ListTab" />
+      <Tabs items={tabItems} defaultActiveKey="1" data-testid="ListTab" />
     </StyledList>
   )
 }

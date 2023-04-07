@@ -22,9 +22,6 @@ const ListWithPagination = () => {
       itemLayout="vertical"
       size="large"
       pagination={{
-        onChange: (page) => {
-          console.log(page)
-        },
         size: 'small',
         position: 'top',
         pageSize: 3

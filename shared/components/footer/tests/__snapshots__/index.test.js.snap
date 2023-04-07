@@ -51,6 +51,5 @@ exports[`<Footer /> should render and match the snapshot 1`] = `
       footer.copyRightSubMessage
     </section>
   </section>
-  <section />
 </footer>
 `;

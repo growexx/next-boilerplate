@@ -1,5 +1,4 @@
 import { act, render, waitFor } from '@testing-library/react'
-
 import request from '@shared/utils/request'
 import ListWithInfiniteLoader from '../ListWithInfiniteLoader'
 
