@@ -17,6 +17,7 @@ const SsrDemoPage = (props) => {
         <title>SSR Demo</title>
       </Head>
       <section>
+        SSR Demo
         <PostList />
       </section>
     </>

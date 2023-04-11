@@ -7,7 +7,7 @@ import { useRouter } from 'next/router'
 
 const getMenu = (MenuItems) => (
   <Menu>
-    {MenuItems.locales.map((menuItem, index) => (
+    {MenuItems?.locales?.map((menuItem, index) => (
       <Menu.Item key={index}>
         <Link href={MenuItems.asPath} locale={menuItem}>
           {menuItem.toUpperCase()}
