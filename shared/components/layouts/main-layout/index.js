@@ -12,7 +12,6 @@ const MainLayout = ({ children, defaultLayout }) => {
   const urlParams = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : null
   const layoutVariant = urlParams?.get('layout') ? +urlParams?.get('layout') : defaultLayout
   const [collapsed, setCollapsed] = useState(![LAYOUT_CONFIG.VERTICAL_OPTION_2].includes(layoutVariant))
-
   useEffect(() => {
     Emitter.on(EMITTER_EVENTS.LOG_IN, () => {
       this.forceUpdate()

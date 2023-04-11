@@ -5,11 +5,8 @@ import {
   LoadingOutlined,
   ExportOutlined,
   NumberOutlined,
-  FormOutlined,
   LockOutlined,
   PieChartOutlined,
-  MessageOutlined,
-  ShoppingOutlined,
   SearchOutlined,
   CloudServerOutlined,
   FieldTimeOutlined,
@@ -25,11 +22,6 @@ export const MenuItems = [
     to: ROUTES.HOME,
     tabName: 'Home',
     icon: <SmileOutlined />
-  },
-  {
-    to: ROUTES.SAMPLE_FORM,
-    tabName: 'Redux-Saga Form',
-    icon: <FormOutlined />
   },
   {
     to: ROUTES.LOADER,
@@ -65,16 +57,6 @@ export const MenuItems = [
     to: ROUTES.CHARTS,
     tabName: 'Charts',
     icon: <PieChartOutlined />
-  },
-  {
-    to: ROUTES.MULTI_TAB_SUPPORT,
-    tabName: 'Multi Tab Communication',
-    icon: <MessageOutlined />
-  },
-  {
-    to: ROUTES.PRODUCTS,
-    tabName: 'Products',
-    icon: <ShoppingOutlined />
   },
   {
     to: ROUTES.SSR_DEMO,

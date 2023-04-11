@@ -1,8 +1,6 @@
 // import { TOKEN_KEY, USER_DATA_KEY } from './constants.js'
 // import StorageService from './StorageService'
 
-import StorageService from './StorageService'
-
 export const userExists = () => {
   //   if (StorageService.exists(TOKEN_KEY)) {
   //     return true
@@ -21,21 +19,4 @@ export const getUserData = () => {
   // }
   // TODO:
   return false
-}
-
-/**
- * to logout user from system
- */
-export const logout = () => {
-  StorageService.clear()
-}
-
-export const manageSession = () => {
-  if (!localStorage.userData && !localStorage.loggedOut) {
-    localStorage.setItem('loggedOut', 1)
-    window.location.reload()
-  } else if (localStorage.userData && !localStorage.loggedIn) {
-    localStorage.setItem('loggedIn', 1)
-    window.location.reload()
-  }
 }

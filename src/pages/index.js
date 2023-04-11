@@ -4,14 +4,13 @@ import dynamic from 'next/dynamic'
 import parse from 'html-react-parser'
 import { Skeleton } from 'antd'
 import useTranslation from 'next-translate/useTranslation'
-
 import features from '@docs/general/features.md'
 
 const FeaturePage = dynamic(() => import('@page-components/feature-page'), {
   loading: () => <Skeleton active paragraph={{ rows: 10 }} />
 })
 
-const Home = () => {
+export default function Home() {
   const { t } = useTranslation()
   return (
     <>
@@ -26,5 +25,3 @@ const Home = () => {
     </>
   )
 }
-
-export default Home

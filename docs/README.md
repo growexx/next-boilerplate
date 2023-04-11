@@ -39,35 +39,6 @@
 
 ## Overview
 
-### Quickstart
-
-1.  First, let's kick the tyres by launching the sample _Repospective_ app
-    bundled with this project to demo some of its best features:
-
-    ```Shell
-    npm run setup && npm start
-    ```
-
-1.  Open [localhost:3000](http://localhost:3000) to see it in action.
-
-    - Add a Github username to see Redux and Redux Sagas in action: effortless
-      async state updates and side effects are now yours :)
-    - Edit the file at `./app/components/Header/index.js` so that the text of
-      the `<Button>` component reads "Features!!!"... [Hot Module Reloading](https://webpack.js.org/guides/hot-module-replacement/) gives
-      you a feedback loop with your UI so smooth it's almost conversational!
-    - Click your (newly emphatic) Features button to see React Router in action...
-      Now you can share a direct link to that content privately over your LAN or
-      globally addressable to any device, anywhere. Not bad for a locally-running
-      Single Page App.
-
-1.  Time to build your own app: run
-
-    ```shell
-    npm run clean
-    ```
-
-    ...and use the built-in generators to start your first feature.
-
 ### Development
 
 Run `npm start` to see your app at `localhost:3000`
@@ -108,20 +79,11 @@ building for production so you don't have to worry about that.
 See the [JS documentation](./js/README.md) for more information about the
 JavaScript side of things.
 
-### SEO
-
-We use [react-helmet](https://github.com/nfl/react-helmet) for managing document head tags. Examples on how to
-write head tags can be found [here](https://github.com/nfl/react-helmet#examples).
-
 ### Testing
 
 For a thorough explanation of the testing procedure, see the
 [testing documentation](./testing/README.md)!
 
-#### Browser testing
-
-`npm run start:tunnel` makes your locally-running app globally available on the web
-via a temporary URL: great for testing on different devices, client demos, etc!
 
 #### Unit testing
 
