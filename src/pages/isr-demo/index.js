@@ -13,7 +13,7 @@ const ISRDemoPage = (props) => {
 }
 
 ISRDemoPage.propTypes = {
-  data: PropTypes.object
+  data: PropTypes.array
 }
 
 export default ISRDemoPage
