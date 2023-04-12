@@ -31,7 +31,9 @@ module.exports = {
     '^@utils/(.*)$': '<rootDir>/utils/$1',
     '^@pages/(.*)$': '<rootDir>/src/pages/$1',
     '^@public/(.*)$': '<rootDir>/public/$1',
-    '^@page-components/(.*)$': '<rootDir>/page-components/$1'
+    '^@page-components/(.*)$': '<rootDir>/page-components/$1',
+    '^@styles/(.*)$': '<rootDir>/styles/$1',
+    '@next/font/(.*)': require.resolve('next/dist/build/jest/__mocks__/nextFontMock.js')
   },
   testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/.next/', '<rootDir>/internals/', '<rootDir>/docs/'],
   transform: {
