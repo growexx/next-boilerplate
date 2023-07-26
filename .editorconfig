@@ -1,0 +1,20 @@
+# EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs
+
+# Top-most EditorConfig file
+root = true
+
+# Set default charset to UTF-8
+[*]
+charset = utf-8
+
+# Use 2 space indentation for JavaScript and TypeScript files
+[**.js]
+indent_style = space
+indent_size = 2
+
+[**.ts]
+indent_style = space
+indent_size = 2
+
+# Add more configuration for other file types as needed
